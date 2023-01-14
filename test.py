@@ -6,6 +6,9 @@ import os
 import sys
 import jsoncfg
 import openai
+import whisper
+import sounddevice as sd
+from scipy.io.wavfile import write
 import shutil
 from dotenv import load_dotenv
 import urllib.request
@@ -18,6 +21,7 @@ import log.registre as registre
 # ---------------------------------------------------------------- #
 
 globalConfig = None
+exe_dir = ""
 model_engine = "text-davinci-003"
 
 
@@ -92,7 +96,8 @@ def remove_file(filename):
 
 def promptManager(mode, prompt, last_resp):
     logger.info("[You]> ")
-    question = input()
+    question = recordSound()
+    logger.info("[You]> " + question)
     if mode == "image":
         if question == "end image":
             return True
@@ -104,9 +109,9 @@ def promptManager(mode, prompt, last_resp):
             return False
         return True
     elif mode == "chat":
-        if question == "end chat":
+        if "end chat" in question.lower():
             return True
-        elif question == "execute code":
+        elif "execute code" in question.lower():
             try:
                 exec(last_resp)
             except Exception as e:
@@ -162,9 +167,43 @@ def chatGPTImage(prompt):
         logger.error(e)
     return url
 
+def SpeechToText(audio):
+    model = whisper.load_model("base")
+    # load audio and pad/trim it to fit 30 seconds
+    audio = whisper.load_audio(audio)
+    audio = whisper.pad_or_trim(audio)
+
+    # make log-Mel spectrogram and move to the same device as the model
+    mel = whisper.log_mel_spectrogram(audio).to(model.device)
+
+    # detect the spoken language
+    _, probs = model.detect_language(mel)
+    print(f"Detected language: {max(probs, key=probs.get)}")
+
+    # decode the audio
+    options = whisper.DecodingOptions(fp16 = False)
+    result = whisper.decode(model, mel, options)
+
+    # print the recognized text
+    return result.text
+
+def recordSound():
+    fs = 48000  # Sample rate
+    logger.info("Enter seconds to record & Press enter to start recording")
+    seconds = input()
+    logger.info('[Recording '+str(seconds)+']>')
+    myrecording = sd.rec(int(int(seconds)* fs), samplerate=fs, channels=1)
+    sd.wait()  # Wait until recording is finished
+    logger.info('Recorded')
+    file = os.path.join(exe_dir, globalConfig.folder.temp(),'output.wav')
+    write(file, fs, myrecording)  # Save as WAV file
+    return SpeechToText(file)
+
 def start():
     # Recuperation de la configuration avec json
+    global exe_dir
     exe_dir = dir_folder()
+
     fichierconf = registre.confModule(exe_dir)
     global globalConfig
     globalConfig = jsoncfg.load_config(fichierconf)

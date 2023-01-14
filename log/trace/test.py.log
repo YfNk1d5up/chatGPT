@@ -338,3 +338,418 @@ urllib.request.urlretrieve(url, 'image.jpg')
 14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'contracts' 
 14/01/23, 01:03:06.515 INFO [test:182] New chat
 14/01/23, 01:03:06.515 INFO [test:183] Choose mode (Chat - Image)
+14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:26:10.086 INFO [test:191] [Recording]>
+14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:30:09.608 INFO [test:191] [Recording]>
+14/01/23, 19:30:38.183 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:30:38.183 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:30:38.185 INFO [test:191] [Recording]>
+14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:30:53.474 INFO [test:191] [Recording]>
+14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:31:17.374 INFO [test:191] [Recording]>
+14/01/23, 19:31:33.378 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:31:33.384 INFO [test:191] [Recording]>
+14/01/23, 19:31:58.889 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:31:58.889 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:31:58.890 INFO [test:191] [Recording]>
+14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:39:29.954 INFO [test:191] [Recording]>
+14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'contracts' 
+14/01/23, 19:40:39.567 INFO [test:191] [Recording]>
+14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:48:30.626 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:48:48.642 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:48:48.642 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 19:48:48.642 INFO [test:191] [Recording]>
+14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:49:36.491 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 19:49:36.491 INFO [test:191] [Recording]>
+14/01/23, 19:50:12.172 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 19:50:12.174 INFO [test:218] New chat
+14/01/23, 19:50:12.174 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 19:50:16.745 INFO [test:97] [You]> 
+14/01/23, 19:51:09.961 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:51:09.962 DEBUG [util:60] api_version=None data='{"prompt": "Comment calculer les effectifs en CDD pour des \\u00e9lections proffessionelles ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:51:20.717 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=10239 request_id=5b1e153533c229c1574248ae83603da2 response_code=200
+14/01/23, 19:51:20.724 INFO [test:122] [ChatGPT]> Pour calculer les effectifs en CDD pour des élections professionnelles, vous devez d'abord déterminer le nombre de personnes qui seront éligibles à voter. Vous devez ensuite diviser ce nombre par le nombre de postes à pourvoir. Ensuite, vous devez déterminer le nombre de candidats qui se présentent à l'élection et diviser ce nombre par le nombre de postes à pourvoir. Enfin, vous devez multiplier le résultat par le nombre de personnes éligibles à voter pour obtenir le nombre d'effectifs en CDD pour l'élection.
+14/01/23, 19:51:20.724 INFO [test:97] [You]> 
+14/01/23, 19:53:51.302 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:53:51.302 DEBUG [util:60] api_version=None data='{"prompt": "-Comment calculer les effectifs en CDD pour des \\u00e9lections proffessionelles ?\\n-Pour calculer les effectifs en CDD pour des \\u00e9lections professionnelles, vous devez d\'abord d\\u00e9terminer le nombre de personnes qui seront \\u00e9ligibles \\u00e0 voter. Vous devez ensuite diviser ce nombre par le nombre de postes \\u00e0 pourvoir. Ensuite, vous devez d\\u00e9terminer le nombre de candidats qui se pr\\u00e9sentent \\u00e0 l\'\\u00e9lection et diviser ce nombre par le nombre de postes \\u00e0 pourvoir. Enfin, vous devez multiplier le r\\u00e9sultat par le nombre de personnes \\u00e9ligibles \\u00e0 voter pour obtenir le nombre d\'effectifs en CDD pour l\'\\u00e9lection.\\n-Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:53:57.586 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=5809 request_id=cf48e5112926367764898f22470aee3f response_code=200
+14/01/23, 19:53:57.587 INFO [test:132] [ChatGPT]> Pour prendre en compte les CDD pour le calcul des effectifs pour les élections professionnelles, vous devez d'abord déterminer le nombre de personnes éligibles à voter. Ensuite, vous devez déterminer le nombre de candidats qui se présentent à l'élection. Ensuite, vous devez ajouter le nombre de CDD à ce nombre de candidats. Enfin, vous devez diviser le nombre total de candidats par le nombre de postes à pourvoir et multiplier le résultat par le nombre de personnes éligibles à voter pour obtenir le nombre d'effectifs en CDD pour l'élection.
+14/01/23, 19:53:57.587 INFO [test:97] [You]> 
+14/01/23, 19:54:21.244 INFO [test:224] chat went well
+14/01/23, 19:54:21.244 INFO [test:218] New chat
+14/01/23, 19:54:21.244 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 19:54:24.614 INFO [test:97] [You]> 
+14/01/23, 19:54:28.067 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:54:28.067 DEBUG [util:60] api_version=None data='{"prompt": "Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:54:32.486 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4223 request_id=4100f5013f1a8a508f14d7bf3a51a7b2 response_code=200
+14/01/23, 19:54:32.486 INFO [test:122] [ChatGPT]> Les contrats à durée déterminée (CDD) doivent être pris en compte pour le calcul des effectifs pour les élections professionnelles. Les salariés en CDD doivent être considérés comme des salariés à temps plein et leur nombre doit être inclus dans le total des effectifs. Les salariés en CDD doivent également bénéficier des mêmes droits que les salariés à temps plein, notamment en ce qui concerne le droit de vote et l'accès aux postes électifs.
+14/01/23, 19:54:32.486 INFO [test:97] [You]> 
+14/01/23, 19:56:24.927 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:56:24.928 DEBUG [util:60] api_version=None data='{"prompt": "-Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?\\n-Les contrats \\u00e0 dur\\u00e9e d\\u00e9termin\\u00e9e (CDD) doivent \\u00eatre pris en compte pour le calcul des effectifs pour les \\u00e9lections professionnelles. Les salari\\u00e9s en CDD doivent \\u00eatre consid\\u00e9r\\u00e9s comme des salari\\u00e9s \\u00e0 temps plein et leur nombre doit \\u00eatre inclus dans le total des effectifs. Les salari\\u00e9s en CDD doivent \\u00e9galement b\\u00e9n\\u00e9ficier des m\\u00eames droits que les salari\\u00e9s \\u00e0 temps plein, notamment en ce qui concerne le droit de vote et l\'acc\\u00e8s aux postes \\u00e9lectifs.\\n-Combien de temps maximum dure un CDD ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:56:27.653 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2247 request_id=0c980bd23df7e5683b446ff75a6fb691 response_code=200
+14/01/23, 19:56:27.654 INFO [test:132] [ChatGPT]> Un contrat à durée déterminée (CDD) peut durer jusqu'à 18 mois maximum. Le contrat peut être renouvelé pour une durée supplémentaire d'un an, mais le total ne doit pas dépasser les 18 mois.
+14/01/23, 19:56:27.654 INFO [test:97] [You]> 
+14/01/23, 19:58:26.136 INFO [test:224] chat went well
+14/01/23, 19:58:26.136 INFO [test:218] New chat
+14/01/23, 19:58:26.141 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 19:58:29.867 INFO [test:97] [You]> 
+14/01/23, 19:58:37.036 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:58:37.036 DEBUG [util:60] api_version=None data='{"prompt": "Pourquoi les collants se trouent ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:58:42.325 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4821 request_id=831e73ea8d87b4117a54c49c0ca2453e response_code=200
+14/01/23, 19:58:42.326 INFO [test:122] [ChatGPT]> Les collants peuvent se trouer à cause de frottements répétés, de mauvais entretien (lavage à l'eau trop chaude, séchage à haute température, etc.), ou d'une mauvaise qualité de tissu.
+14/01/23, 19:58:42.331 INFO [test:97] [You]> 
+14/01/23, 19:59:22.755 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 19:59:22.756 DEBUG [util:60] api_version=None data='{"prompt": "-Pourquoi les collants se trouent ?\\n-Les collants peuvent se trouer \\u00e0 cause de frottements r\\u00e9p\\u00e9t\\u00e9s, de mauvais entretien (lavage \\u00e0 l\'eau trop chaude, s\\u00e9chage \\u00e0 haute temp\\u00e9rature, etc.), ou d\'une mauvaise qualit\\u00e9 de tissu.\\n-Cela peut-il aussi \\u00eatre \\u00e0 cause de mon chat truffe ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 19:59:25.904 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2967 request_id=8d577113019a60eacf48b95325c04556 response_code=200
+14/01/23, 19:59:25.905 INFO [test:132] [ChatGPT]> Oui, cela pourrait être à cause de votre chat truffe. Les griffes des chats peuvent facilement entailler des collants et les rendre plus susceptibles de trouer.
+14/01/23, 19:59:25.905 INFO [test:97] [You]> 
+14/01/23, 19:59:55.135 INFO [test:224] chat went well
+14/01/23, 19:59:55.135 INFO [test:218] New chat
+14/01/23, 19:59:55.135 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 19:59:59.157 INFO [test:97] [You]> 
+14/01/23, 20:00:59.629 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 20:00:59.629 DEBUG [util:60] api_version=None data='{"prompt": "Un champ de tournesols avec le Puy de D\\u00f4me et un chat qui danse", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 20:01:06.021 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5911 request_id=c46556daf1150a88aabfcb9a0cdf0b96 response_code=200
+14/01/23, 20:01:07.775 INFO [test:104] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-MNThWDcTDmt7s1JmBxMkgMD4.png?st=2023-01-14T18%3A01%3A05Z&se=2023-01-14T20%3A01%3A05Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T17%3A44%3A13Z&ske=2023-01-15T17%3A44%3A13Z&sks=b&skv=2021-08-06&sig=qlgeQsvSbMT4Wxrjb6S6UnQVY/Qc7h%2B0jBz7KylRrRQ%3D
+14/01/23, 20:01:07.776 INFO [test:224] image went well
+14/01/23, 20:01:07.776 INFO [test:218] New chat
+14/01/23, 20:01:07.776 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:02:54.204 INFO [test:97] [You]> 
+14/01/23, 20:03:09.503 INFO [test:224] quentin qui fait l'amour à léa went well
+14/01/23, 20:03:09.503 INFO [test:218] New chat
+14/01/23, 20:03:09.503 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:03:14.489 INFO [test:97] [You]> 
+14/01/23, 20:03:17.173 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 20:03:17.173 DEBUG [util:60] api_version=None data='{"prompt": "quentin qui fait l\'amour \\u00e0 l\\u00e9a", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 20:03:21.133 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=429 request_id=3eb9f63c08e703212cf267ed8afdd190 response_code=400
+14/01/23, 20:03:21.133 INFO [util:67] error_code=None error_message='Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+14/01/23, 20:03:21.134 ERROR [test:106] Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
+14/01/23, 20:03:21.134 INFO [test:226] image went wrong
+14/01/23, 20:03:21.134 INFO [test:218] New chat
+14/01/23, 20:03:21.134 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:03:40.250 INFO [test:97] [You]> 
+14/01/23, 20:03:57.118 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 20:03:57.119 DEBUG [util:60] api_version=None data='{"prompt": "quentin qui fait un c\\u00e2lin \\u00e0 l\\u00e9a", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 20:04:02.917 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5664 request_id=951788af9bc9a1b649cf5c8ae8c9772e response_code=200
+14/01/23, 20:04:05.087 INFO [test:104] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-DjNFt10fb2UvUtkBYaJ1eadY.png?st=2023-01-14T18%3A04%3A02Z&se=2023-01-14T20%3A04%3A02Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T16%3A52%3A26Z&ske=2023-01-15T16%3A52%3A26Z&sks=b&skv=2021-08-06&sig=wTdru8dQX1jW0mg7yPnYFEjm/ak2TR0kGa/g4w3GbSg%3D
+14/01/23, 20:04:05.087 INFO [test:224] image went well
+14/01/23, 20:04:05.087 INFO [test:218] New chat
+14/01/23, 20:04:05.087 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:04:43.542 INFO [test:97] [You]> 
+14/01/23, 20:05:47.074 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:05:47.074 DEBUG [util:60] api_version=None data='{"prompt": "Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:05:55.446 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=7853 request_id=6e1c52271a34b2cf70114071032798f8 response_code=200
+14/01/23, 20:05:55.446 INFO [test:122] [ChatGPT]> Le calcul des effectifs pour les élections professionnelles comprend le nombre total de salariés à temps plein et à temps partiel, y compris les salariés en CDD. Le nombre total d'effectifs est calculé en additionnant le nombre de salariés à temps plein, le nombre de salariés à temps partiel et le nombre de salariés en CDD.
+14/01/23, 20:05:55.446 INFO [test:97] [You]> 
+14/01/23, 20:07:13.957 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:07:13.957 DEBUG [util:60] api_version=None data='{"prompt": "-Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?\\n-Le calcul des effectifs pour les \\u00e9lections professionnelles comprend le nombre total de salari\\u00e9s \\u00e0 temps plein et \\u00e0 temps partiel, y compris les salari\\u00e9s en CDD. Le nombre total d\'effectifs est calcul\\u00e9 en additionnant le nombre de salari\\u00e9s \\u00e0 temps plein, le nombre de salari\\u00e9s \\u00e0 temps partiel et le nombre de salari\\u00e9s en CDD.\\n-Non. Je parle du nombre effectifs pouvant \\u00eatre d\\u00e9cimal\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:07:16.363 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1882 request_id=e900de9899ed2cda639180108db0601a response_code=200
+14/01/23, 20:07:16.363 INFO [test:132] [ChatGPT]> Non, le nombre effectif pour les élections professionnelles doit être un nombre entier.
+14/01/23, 20:07:16.368 INFO [test:97] [You]> 
+14/01/23, 20:08:53.679 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:08:53.679 DEBUG [util:60] api_version=None data='{"prompt": "-Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?\\n-Le calcul des effectifs pour les \\u00e9lections professionnelles comprend le nombre total de salari\\u00e9s \\u00e0 temps plein et \\u00e0 temps partiel, y compris les salari\\u00e9s en CDD. Le nombre total d\'effectifs est calcul\\u00e9 en additionnant le nombre de salari\\u00e9s \\u00e0 temps plein, le nombre de salari\\u00e9s \\u00e0 temps partiel et le nombre de salari\\u00e9s en CDD.\\n-Non. Je parle du nombre effectifs pouvant \\u00eatre d\\u00e9cimal\\n-Non, le nombre effectif pour les \\u00e9lections professionnelles doit \\u00eatre un nombre entier.\\n-Quel est le calcul des effectifs concernant les contrats en CDD ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:08:58.129 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3850 request_id=58cf0176f9111e3c45b5f1ac317a0d81 response_code=200
+14/01/23, 20:08:58.130 INFO [test:132] [ChatGPT]> Le calcul des effectifs concernant les contrats en CDD comprend le nombre total de salariés à temps plein et à temps partiel, y compris les salariés en CDD. Le nombre total d'effectifs est calculé en additionnant le nombre de salariés à temps plein, le nombre de salariés à temps partiel et le nombre de salariés en CDD.
+14/01/23, 20:08:58.130 INFO [test:97] [You]> 
+14/01/23, 20:09:19.233 INFO [test:224] chat went well
+14/01/23, 20:09:19.234 INFO [test:218] New chat
+14/01/23, 20:09:19.234 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:09:26.562 INFO [test:97] [You]> 
+14/01/23, 20:09:28.528 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:09:28.528 DEBUG [util:60] api_version=None data='{"prompt": "Quel est le calcul des effectifs concernant les contrats en CDD ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:09:31.877 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3161 request_id=3da2d060498764aaf05ed759d378e4bd response_code=200
+14/01/23, 20:09:31.877 INFO [test:122] [ChatGPT]> Le calcul des effectifs pour les contrats en CDD consiste à compter le nombre de personnes qui sont en CDD à un moment donné. Cela peut être fait en comptant le nombre de contrats en cours et en ajoutant le nombre de nouveaux contrats qui ont été signés au cours d'une période donnée.
+14/01/23, 20:09:31.882 INFO [test:97] [You]> 
+14/01/23, 20:10:12.394 INFO [test:224] chat went well
+14/01/23, 20:10:12.394 INFO [test:218] New chat
+14/01/23, 20:10:12.394 INFO [test:219] Choose mode (Chat - Image)
+14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 20:15:48.587 INFO [test:191] [Recording]>
+14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'input' 
+14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'output' 
+14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'error' 
+14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'done' 
+14/01/23, 20:16:52.494 DEBUG [test:52] Verification du dossier 'temp' 
+14/01/23, 20:16:52.494 INFO [test:191] [Recording]>
+14/01/23, 20:23:27.823 DEBUG [test:53] Verification du dossier 'input' 
+14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'output' 
+14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'error' 
+14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'done' 
+14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'temp' 
+14/01/23, 20:23:27.829 INFO [test:220] New chat
+14/01/23, 20:23:27.829 INFO [test:221] Choose mode (Chat - Image)
+14/01/23, 20:23:36.496 INFO [test:98] [You]> 
+14/01/23, 20:23:36.496 INFO [test:193] [Recording 15s]>
+14/01/23, 20:23:51.506 INFO [test:196] Recorded
+14/01/23, 20:23:56.450 INFO [test:100] [You]> Un chien qui fait du houlahoup sur une montagne pendant la nuit est toilée.
+14/01/23, 20:23:56.465 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 20:23:56.465 DEBUG [util:60] api_version=None data='{"prompt": "Un chien qui fait du houlahoup sur une montagne pendant la nuit est toil\\u00e9e.", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 20:24:02.886 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5931 request_id=20c08d1f698222e80eb1f2c3ca7e442c response_code=200
+14/01/23, 20:24:04.847 INFO [test:106] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-65G22WnBUrtslXNo467a9fTw.png?st=2023-01-14T18%3A24%3A02Z&se=2023-01-14T20%3A24%3A02Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T16%3A39%3A43Z&ske=2023-01-15T16%3A39%3A43Z&sks=b&skv=2021-08-06&sig=cKSPjVrrpJWvlU%2BqivJF04%2BOq1b/sxf69kR9aAJXe3c%3D
+14/01/23, 20:24:04.847 INFO [test:226] image went well
+14/01/23, 20:24:04.847 INFO [test:220] New chat
+14/01/23, 20:24:04.847 INFO [test:221] Choose mode (Chat - Image)
+14/01/23, 20:24:34.442 INFO [test:98] [You]> 
+14/01/23, 20:24:34.442 INFO [test:193] [Recording 15s]>
+14/01/23, 20:24:49.447 INFO [test:196] Recorded
+14/01/23, 20:24:54.637 INFO [test:100] [You]> que penses-tu du fait que ma copine se fasse du bien et lise en même temps pendant que moi je suis en train de coder et en même temps on écoute de la musique
+14/01/23, 20:24:54.637 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:24:54.642 DEBUG [util:60] api_version=None data='{"prompt": "que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:24:56.909 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2077 request_id=8a86917020db72929a63a3ac17f788a9 response_code=200
+14/01/23, 20:24:56.910 INFO [test:124] [ChatGPT]> 
+
+Je pense que c'est une excellente façon de passer du temps ensemble et de profiter de vos intérêts respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en même temps.
+14/01/23, 20:24:56.910 INFO [test:98] [You]> 
+14/01/23, 20:24:56.910 INFO [test:193] [Recording 15s]>
+14/01/23, 20:25:11.924 INFO [test:196] Recorded
+14/01/23, 20:25:17.766 INFO [test:100] [You]> Je pense que si tu es une excellente façon de passer du temps ensemble et de profiter de vos intérêts et respectifs, cela m'a eu permis de vous concentrer sur ce que vous êtes bon, partagez quelque chose en même temps. Je vous remportage quelque chose en même temps.
+14/01/23, 20:25:17.766 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:25:17.766 DEBUG [util:60] api_version=None data='{"prompt": "-que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique\\n-\\n\\nJe pense que c\'est une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en m\\u00eame temps.\\n-Je pense que si tu es une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats et respectifs, cela m\'a eu permis de vous concentrer sur ce que vous \\u00eates bon, partagez quelque chose en m\\u00eame temps. Je vous remportage quelque chose en m\\u00eame temps.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:25:20.111 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2159 request_id=2392b1667561dc75b9f9c17c3c2c135b response_code=200
+14/01/23, 20:25:20.111 INFO [test:134] [ChatGPT]> C'est une excellente idée! Cela vous permet de partager des moments et des activités tout en profitant de vos intérêts respectifs. Vous pourrez ainsi profiter de votre temps ensemble et vous enrichir mutuellement.
+14/01/23, 20:25:20.111 INFO [test:98] [You]> 
+14/01/23, 20:25:20.111 INFO [test:193] [Recording 15s]>
+14/01/23, 20:25:35.118 INFO [test:196] Recorded
+14/01/23, 20:25:39.966 INFO [test:100] [You]> Elle pense que ce n'est pas une bonne idée et que ces activités-là sont trop différentes pour qu'on puisse...
+14/01/23, 20:25:39.967 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:25:39.967 DEBUG [util:60] api_version=None data='{"prompt": "-que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique\\n-\\n\\nJe pense que c\'est une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en m\\u00eame temps.\\n-Je pense que si tu es une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats et respectifs, cela m\'a eu permis de vous concentrer sur ce que vous \\u00eates bon, partagez quelque chose en m\\u00eame temps. Je vous remportage quelque chose en m\\u00eame temps.\\n-C\'est une excellente id\\u00e9e! Cela vous permet de partager des moments et des activit\\u00e9s tout en profitant de vos int\\u00e9r\\u00eats respectifs. Vous pourrez ainsi profiter de votre temps ensemble et vous enrichir mutuellement.\\n-Elle pense que ce n\'est pas une bonne id\\u00e9e et que ces activit\\u00e9s-l\\u00e0 sont trop diff\\u00e9rentes pour qu\'on puisse...\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:25:42.774 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2621 request_id=fb1c9fbc1962c42c535f6e858ab67054 response_code=200
+14/01/23, 20:25:42.775 INFO [test:134] [ChatGPT]> Je pense que c'est une excellente façon de passer du temps ensemble et de profiter de vos intérêts respectifs. Vous pouvez vous concentrer sur ce que vous aimez et partager quelque chose en même temps. Cela peut vous permettre de vous enrichir mutuellement et de vous rapprocher.
+14/01/23, 20:25:42.775 INFO [test:98] [You]> 
+14/01/23, 20:25:42.775 INFO [test:193] [Recording 15s]>
+14/01/23, 20:27:26.571 DEBUG [test:53] Verification du dossier 'input' 
+14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'output' 
+14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'error' 
+14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'done' 
+14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'temp' 
+14/01/23, 20:27:26.572 INFO [test:222] New chat
+14/01/23, 20:27:26.572 INFO [test:223] Choose mode (Chat - Image)
+14/01/23, 20:27:40.208 INFO [test:98] [You]> 
+14/01/23, 20:27:40.208 INFO [test:193] Press enter to start recording
+14/01/23, 20:27:44.314 INFO [test:195] [Recording 15s]>
+14/01/23, 20:27:59.324 INFO [test:198] Recorded
+14/01/23, 20:28:04.397 INFO [test:100] [You]> Écrime-moi un code Python qui permet de générer un file texte qui compte le nombre de lignes pendant son ligne.
+14/01/23, 20:28:04.412 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:28:04.412 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:28:08.690 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3793 request_id=db997a37ff0b40332804bca4efce460e response_code=200
+14/01/23, 20:28:08.691 INFO [test:124] [ChatGPT]> # Ouverture du fichier
+f = open("compteur.txt", "w")
+
+# Initialisation de la variable de comptage
+lignes = 0
+
+# Boucle sur chaque ligne du fichier
+for ligne in f:
+    # Incrémentation du compteur
+    lignes += 1
+    # Écriture de la ligne dans le fichier
+    f.write(str(lignes) + " " + ligne)
+
+# Fermeture du fichier
+f.close()
+14/01/23, 20:28:08.691 INFO [test:98] [You]> 
+14/01/23, 20:28:08.691 INFO [test:193] Press enter to start recording
+14/01/23, 20:28:26.291 INFO [test:195] [Recording 15s]>
+14/01/23, 20:28:41.302 INFO [test:198] Recorded
+14/01/23, 20:28:45.529 INFO [test:100] [You]> Execute code.
+14/01/23, 20:28:45.530 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:28:45.530 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.\\n-# Ouverture du fichier\\nf = open(\\"compteur.txt\\", \\"w\\")\\n\\n# Initialisation de la variable de comptage\\nlignes = 0\\n\\n# Boucle sur chaque ligne du fichier\\nfor ligne in f:\\n    # Incr\\u00e9mentation du compteur\\n    lignes += 1\\n    # \\u00c9criture de la ligne dans le fichier\\n    f.write(str(lignes) + \\" \\" + ligne)\\n\\n# Fermeture du fichier\\nf.close()\\n-Execute code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:28:46.694 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=976 request_id=5179e27dc19c1ef17d469ea9edebbe4c response_code=200
+14/01/23, 20:28:46.695 INFO [test:134] [ChatGPT]> Ouvrez le fichier "compteur.txt" pour voir le résultat.
+14/01/23, 20:28:46.699 INFO [test:98] [You]> 
+14/01/23, 20:28:46.699 INFO [test:193] Press enter to start recording
+14/01/23, 20:28:46.699 INFO [test:195] [Recording 15s]>
+14/01/23, 20:29:01.709 INFO [test:198] Recorded
+14/01/23, 20:29:05.866 INFO [test:100] [You]> nd
+14/01/23, 20:29:05.866 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:29:05.866 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.\\n-# Ouverture du fichier\\nf = open(\\"compteur.txt\\", \\"w\\")\\n\\n# Initialisation de la variable de comptage\\nlignes = 0\\n\\n# Boucle sur chaque ligne du fichier\\nfor ligne in f:\\n    # Incr\\u00e9mentation du compteur\\n    lignes += 1\\n    # \\u00c9criture de la ligne dans le fichier\\n    f.write(str(lignes) + \\" \\" + ligne)\\n\\n# Fermeture du fichier\\nf.close()\\n-Execute code.\\n-Ouvrez le fichier \\"compteur.txt\\" pour voir le r\\u00e9sultat.\\n-nd\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:29:07.077 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1011 request_id=8fc73b2fabd7995d687fd9c84d05e4ff response_code=200
+14/01/23, 20:29:07.078 INFO [test:134] [ChatGPT]> Verifiez que le fichier contient bien le nombre de lignes que vous avez entrées.
+14/01/23, 20:29:07.082 INFO [test:98] [You]> 
+14/01/23, 20:29:07.083 INFO [test:193] Press enter to start recording
+14/01/23, 20:31:55.904 DEBUG [test:53] Verification du dossier 'input' 
+14/01/23, 20:31:55.905 DEBUG [test:53] Verification du dossier 'output' 
+14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'error' 
+14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'done' 
+14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'temp' 
+14/01/23, 20:31:55.910 INFO [test:221] New chat
+14/01/23, 20:31:55.910 INFO [test:222] Choose mode (Chat - Image)
+14/01/23, 20:32:01.725 INFO [test:98] [You]> 
+14/01/23, 20:32:01.725 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:32:06.668 INFO [test:194] [Recording 20]>
+14/01/23, 20:32:26.696 INFO [test:197] Recorded
+14/01/23, 20:32:32.259 INFO [test:100] [You]> Écrit-moi un code Python qui génère un fichier texte, ça peut l'en léa.txt et comptant le nombre de lignes pendant sans lignes.
+14/01/23, 20:32:32.274 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:32:32.275 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:32:39.775 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=6969 request_id=660ebefc6eabfbf594fae19a3045ac9d response_code=200
+14/01/23, 20:32:39.776 INFO [test:124] [ChatGPT]> # Ouverture du fichier
+fichier = open("lea.txt", "w")
+
+# Initialisation du compteur
+compteur = 0
+
+# Boucle qui écrit les lignes dans le fichier
+while compteur < 10:
+    fichier.write("Ligne " + str(compteur + 1) + "\n")
+    compteur += 1
+
+# Fermeture du fichier
+fichier.close()
+14/01/23, 20:32:39.776 INFO [test:98] [You]> 
+14/01/23, 20:32:39.776 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:32:53.586 INFO [test:194] [Recording 5]>
+14/01/23, 20:32:58.602 INFO [test:197] Recorded
+14/01/23, 20:33:02.890 INFO [test:100] [You]> Execute, cut.
+14/01/23, 20:33:02.890 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:33:02.890 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:33:04.160 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1079 request_id=5fa742262ca022c7f2d909b1339d01c9 response_code=200
+14/01/23, 20:33:04.161 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
+14/01/23, 20:33:04.161 INFO [test:98] [You]> 
+14/01/23, 20:33:04.161 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:33:21.187 INFO [test:194] [Recording 5]>
+14/01/23, 20:33:26.210 INFO [test:197] Recorded
+14/01/23, 20:33:30.392 INFO [test:100] [You]> réécris-moi le code.
+14/01/23, 20:33:30.392 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:33:30.392 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:33:33.696 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3143 request_id=3e8f352b1abe3dd828d5392e4946e89a response_code=200
+14/01/23, 20:33:33.696 INFO [test:134] [ChatGPT]> # Ouverture du fichier
+fichier = open("lea.txt", "w")
+
+# Initialisation du compteur
+compteur = 0
+
+# Boucle qui écrit les lignes dans le fichier
+while compteur < 10:
+    fichier.write("Ligne " + str(compteur + 1) + "\n")
+    compteur += 1
+
+# Fermeture du fichier
+fichier.close()
+14/01/23, 20:33:33.696 INFO [test:98] [You]> 
+14/01/23, 20:33:33.696 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:33:38.693 INFO [test:194] [Recording 5]>
+14/01/23, 20:33:43.719 INFO [test:197] Recorded
+14/01/23, 20:33:47.891 INFO [test:100] [You]> Execute God.
+14/01/23, 20:33:47.892 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:33:47.896 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:33:49.019 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=931 request_id=68041d9f18bc0478e97a562219326cdd response_code=200
+14/01/23, 20:33:49.019 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
+14/01/23, 20:33:49.020 INFO [test:98] [You]> 
+14/01/23, 20:33:49.020 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:34:00.742 INFO [test:194] [Recording 5]>
+14/01/23, 20:34:05.753 INFO [test:197] Recorded
+14/01/23, 20:34:10.020 INFO [test:100] [You]> réécris-moi le code.
+14/01/23, 20:34:10.021 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:34:10.021 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:34:13.579 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3395 request_id=fc331017f000d9122774af7b2b8a1b44 response_code=200
+14/01/23, 20:34:13.580 INFO [test:134] [ChatGPT]> # Ouverture du fichier
+fichier = open("lea.txt", "w")
+
+# Initialisation du compteur
+compteur = 0
+
+# Boucle qui écrit les lignes dans le fichier
+while compteur < 10:
+    fichier.write("Ligne " + str(compteur + 1) + "\n")
+    compteur += 1
+
+# Fermeture du fichier
+fichier.close()
+14/01/23, 20:34:13.580 INFO [test:98] [You]> 
+14/01/23, 20:34:13.580 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:34:18.078 INFO [test:194] [Recording 5]>
+14/01/23, 20:34:23.090 INFO [test:197] Recorded
+14/01/23, 20:34:27.411 INFO [test:100] [You]> Execute God.
+14/01/23, 20:34:27.412 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:34:27.412 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:34:30.015 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2407 request_id=bd2c82f1f5e6e8604787acd43ed147b4 response_code=200
+14/01/23, 20:34:30.015 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
+14/01/23, 20:34:30.015 INFO [test:98] [You]> 
+14/01/23, 20:34:30.015 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:34:48.948 INFO [test:194] [Recording 5]>
+14/01/23, 20:34:53.961 INFO [test:197] Recorded
+14/01/23, 20:34:58.089 INFO [test:100] [You]> Execute code.
+14/01/23, 20:34:58.089 ERROR [test:118] invalid syntax (<string>, line 1)
+14/01/23, 20:34:58.089 INFO [test:227] chat went well
+14/01/23, 20:34:58.089 INFO [test:221] New chat
+14/01/23, 20:34:58.089 INFO [test:222] Choose mode (Chat - Image)
+14/01/23, 20:35:16.132 INFO [test:98] [You]> 
+14/01/23, 20:35:16.133 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:35:23.017 INFO [test:194] [Recording 20]>
+14/01/23, 20:35:43.037 INFO [test:197] Recorded
+14/01/23, 20:35:48.348 INFO [test:100] [You]> Écrie-moi un code Python qui génère un fichier texte s'appelant laa.txt et qui compte le nombre de lignes pendant le chiffre 100 lignes.
+14/01/23, 20:35:48.348 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 20:35:48.349 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crie-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte s\'appelant laa.txt et qui compte le nombre de lignes pendant le chiffre 100 lignes.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 20:35:52.377 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3345 request_id=ffd55d6f03e2c20dc8bb082573b52e2f response_code=200
+14/01/23, 20:35:52.377 INFO [test:124] [ChatGPT]> with open('laa.txt', 'w') as f:
+    for i in range(1, 101):
+        f.write('This is line %d\n' % i)
+14/01/23, 20:35:52.377 INFO [test:98] [You]> 
+14/01/23, 20:35:52.377 INFO [test:192] Enter seconds to record & Press enter to start recording
+14/01/23, 20:36:02.682 INFO [test:194] [Recording 5]>
+14/01/23, 20:36:07.694 INFO [test:197] Recorded
+14/01/23, 20:36:11.818 INFO [test:100] [You]> Execute code.
+14/01/23, 20:36:11.818 INFO [test:227] chat went well
+14/01/23, 20:36:11.818 INFO [test:221] New chat
+14/01/23, 20:36:11.818 INFO [test:222] Choose mode (Chat - Image)
