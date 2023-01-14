@@ -1,0 +1,754 @@
+04/03/22, 12:44:02.101 DEBUG [SmartContractAnalyser:58] Verification du dossier 'input' 
+04/03/22, 12:44:02.102 DEBUG [SmartContractAnalyser:58] Verification du dossier 'output' 
+04/03/22, 12:44:02.102 DEBUG [SmartContractAnalyser:58] Verification du dossier 'error' 
+04/03/22, 12:44:02.102 DEBUG [SmartContractAnalyser:58] Verification du dossier 'done' 
+04/03/22, 12:44:02.102 DEBUG [SmartContractAnalyser:58] Verification du dossier 'contracts' 
+04/03/22, 12:44:02.105 INFO [SmartContractAnalyser:134] Connection to bsc ...
+04/03/22, 12:44:02.716 DEBUG [SmartContractAnalyser:136] Web3 connected to bsc
+04/03/22, 12:44:02.929 INFO [SmartContractAnalyser:317] Latest block : 15764488
+04/03/22, 12:44:02.929 INFO [SmartContractAnalyser:320] Blocks to analyse : 7668487
+04/03/22, 12:44:04.453 INFO [SmartContractAnalyser:221] Got 981 events in block range [8096001:8101001]
+04/03/22, 12:44:04.453 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 12:45:24.659 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 12:46:40.987 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 12:47:54.980 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 12:49:07.373 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 12:50:20.798 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 12:51:34.670 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 12:52:50.771 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 12:54:05.375 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 12:55:20.849 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 12:56:35.371 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 12:56:35.473 INFO [SmartContractAnalyser:296] Blocks remaining : 7663487, estimate time remaining : 13d9h23m41s
+04/03/22, 12:56:40.722 INFO [SmartContractAnalyser:221] Got 633 events in block range [8101001:8106001]
+04/03/22, 12:56:40.722 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 12:57:44.191 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 12:58:33.416 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 12:59:20.892 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:00:10.309 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:01:02.010 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:01:49.058 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:02:48.314 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:03:35.293 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:04:27.070 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 13:05:12.772 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 13:05:12.873 INFO [SmartContractAnalyser:296] Blocks remaining : 7658487, estimate time remaining : 11d21h9m44s
+04/03/22, 13:05:17.589 INFO [SmartContractAnalyser:221] Got 571 events in block range [8106001:8111001]
+04/03/22, 13:05:17.589 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 13:06:10.173 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 13:06:54.094 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 13:07:39.350 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:08:31.408 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:09:15.028 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:09:59.765 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:10:48.748 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:12:05.543 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:12:53.873 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 13:13:42.132 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 13:13:42.233 INFO [SmartContractAnalyser:296] Blocks remaining : 7653487, estimate time remaining : 10d2h10m58s
+04/03/22, 13:13:48.067 INFO [SmartContractAnalyser:221] Got 725 events in block range [8111001:8116001]
+04/03/22, 13:13:48.067 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 13:14:46.119 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 13:15:46.989 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 13:16:43.812 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:17:48.538 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:18:47.001 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:19:45.943 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:20:43.662 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:21:42.112 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:22:58.726 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 13:23:59.657 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 13:23:59.764 INFO [SmartContractAnalyser:296] Blocks remaining : 7648487, estimate time remaining : 10d2h36m47s
+04/03/22, 13:24:07.791 INFO [SmartContractAnalyser:221] Got 868 events in block range [8116001:8121001]
+04/03/22, 13:24:07.793 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 13:25:20.792 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 13:26:28.141 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 13:27:38.970 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:28:48.542 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:29:57.984 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:31:22.162 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:32:38.229 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:33:47.418 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:35:16.715 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 13:37:14.940 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 13:37:15.042 INFO [SmartContractAnalyser:296] Blocks remaining : 7643487, estimate time remaining : 11d2h5m54s
+04/03/22, 13:37:23.676 INFO [SmartContractAnalyser:221] Got 974 events in block range [8121001:8126001]
+04/03/22, 13:37:23.681 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 13:38:52.664 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 13:40:12.515 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 13:41:30.549 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:42:48.330 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:44:13.649 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:45:34.831 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:47:01.386 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:48:24.919 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:49:44.513 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 13:51:03.624 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 13:51:03.725 INFO [SmartContractAnalyser:296] Blocks remaining : 7638487, estimate time remaining : 11d22h22m39s
+04/03/22, 13:51:08.998 INFO [SmartContractAnalyser:221] Got 700 events in block range [8126001:8131001]
+04/03/22, 13:51:09.003 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 13:52:06.028 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 13:53:12.631 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 13:54:10.624 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 13:55:17.055 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 13:56:11.333 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 13:57:08.705 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 13:58:05.305 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 13:59:02.775 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 13:59:56.447 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:00:55.429 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:00:55.536 INFO [SmartContractAnalyser:296] Blocks remaining : 7633487, estimate time remaining : 11d13h26m47s
+04/03/22, 14:00:59.400 INFO [SmartContractAnalyser:221] Got 562 events in block range [8131001:8136001]
+04/03/22, 14:00:59.405 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:01:43.662 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:02:26.345 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:03:11.287 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:03:55.597 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:04:40.485 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:05:36.165 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 14:06:30.011 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 14:07:12.943 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 14:08:00.944 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:08:47.006 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:08:47.108 INFO [SmartContractAnalyser:296] Blocks remaining : 7628487, estimate time remaining : 11d9h20m14s
+04/03/22, 14:08:52.084 INFO [SmartContractAnalyser:221] Got 627 events in block range [8136001:8141001]
+04/03/22, 14:08:52.089 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:09:45.958 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:10:43.692 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:11:31.648 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:12:22.063 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:13:19.790 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:14:14.299 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 14:15:10.579 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 14:16:05.007 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 14:16:56.855 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:17:47.222 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:17:47.328 INFO [SmartContractAnalyser:296] Blocks remaining : 7623487, estimate time remaining : 11d8h40m33s
+04/03/22, 14:17:53.686 INFO [SmartContractAnalyser:221] Got 663 events in block range [8141001:8146001]
+04/03/22, 14:17:53.686 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:18:48.434 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:19:40.431 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:20:36.368 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:21:32.566 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:22:27.047 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:23:23.548 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 14:24:18.429 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 14:25:16.233 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 14:26:14.061 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:27:16.377 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:27:16.483 INFO [SmartContractAnalyser:296] Blocks remaining : 7618487, estimate time remaining : 10d14h8m29s
+04/03/22, 14:27:25.226 INFO [SmartContractAnalyser:221] Got 896 events in block range [8146001:8151001]
+04/03/22, 14:27:25.231 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:28:43.341 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:30:15.434 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:31:30.361 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:32:40.760 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:33:57.413 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:35:10.081 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 14:36:24.276 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 14:37:40.407 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 14:38:52.894 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:40:11.128 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:40:11.235 INFO [SmartContractAnalyser:296] Blocks remaining : 7613487, estimate time remaining : 11d19h56m41s
+04/03/22, 14:40:19.797 INFO [SmartContractAnalyser:221] Got 921 events in block range [8151001:8156001]
+04/03/22, 14:40:19.798 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:41:36.378 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:42:55.978 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:44:14.232 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:45:29.810 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:46:46.140 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:48:02.671 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 14:49:20.656 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 14:50:38.827 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 14:51:59.070 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 14:53:21.652 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 14:53:21.758 INFO [SmartContractAnalyser:296] Blocks remaining : 7608487, estimate time remaining : 11d15h18m1s
+04/03/22, 14:53:27.065 INFO [SmartContractAnalyser:221] Got 750 events in block range [8156001:8161001]
+04/03/22, 14:53:27.065 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 14:54:25.946 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 14:55:25.245 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 14:56:27.510 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 14:57:31.222 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 14:58:31.485 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 14:59:29.052 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:00:28.942 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 15:01:28.893 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 15:02:23.849 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 15:03:22.278 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 15:03:22.384 INFO [SmartContractAnalyser:296] Blocks remaining : 7603487, estimate time remaining : 11d18h37m40s
+04/03/22, 15:03:27.507 INFO [SmartContractAnalyser:221] Got 551 events in block range [8161001:8166001]
+04/03/22, 15:03:27.507 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:04:12.812 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:04:55.292 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:06:02.945 DEBUG [SmartContractAnalyser:58] Verification du dossier 'input' 
+04/03/22, 15:06:02.950 DEBUG [SmartContractAnalyser:58] Verification du dossier 'output' 
+04/03/22, 15:06:02.950 DEBUG [SmartContractAnalyser:58] Verification du dossier 'error' 
+04/03/22, 15:06:02.950 DEBUG [SmartContractAnalyser:58] Verification du dossier 'done' 
+04/03/22, 15:06:02.950 DEBUG [SmartContractAnalyser:58] Verification du dossier 'contracts' 
+04/03/22, 15:06:02.952 INFO [SmartContractAnalyser:134] Connection to bsc ...
+04/03/22, 15:06:03.151 DEBUG [SmartContractAnalyser:136] Web3 connected to bsc
+04/03/22, 15:06:03.204 INFO [SmartContractAnalyser:317] Latest block : 15767308
+04/03/22, 15:06:03.204 INFO [SmartContractAnalyser:320] Blocks to analyse : 7606307
+04/03/22, 15:06:07.870 INFO [SmartContractAnalyser:221] Got 551 events in block range [8161001:8166001]
+04/03/22, 15:06:07.875 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:06:54.607 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:07:37.116 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:08:23.797 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 15:09:08.822 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 15:09:50.103 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 15:10:35.521 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:11:21.707 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 15:12:06.671 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 15:12:55.029 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 15:13:43.575 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 15:13:43.681 INFO [SmartContractAnalyser:296] Blocks remaining : 7601307, estimate time remaining : 8d23h27m25s
+04/03/22, 15:13:49.497 INFO [SmartContractAnalyser:221] Got 673 events in block range [8166001:8171001]
+04/03/22, 15:13:49.498 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:14:47.970 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:15:42.396 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:16:48.658 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 15:17:40.254 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 15:18:36.638 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 15:19:28.114 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:20:23.939 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 15:21:21.602 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 15:22:19.659 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 15:23:19.842 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 15:23:19.943 INFO [SmartContractAnalyser:296] Blocks remaining : 7596307, estimate time remaining : 9d5h45m38s
+04/03/22, 15:23:26.399 INFO [SmartContractAnalyser:221] Got 810 events in block range [8171001:8176001]
+04/03/22, 15:23:26.404 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:24:33.155 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:26:00.211 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:27:11.711 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 15:28:16.071 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 15:29:38.108 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 15:30:58.247 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:32:00.299 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 15:33:11.189 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 15:34:15.306 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 15:35:18.158 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 15:35:18.259 INFO [SmartContractAnalyser:296] Blocks remaining : 7591307, estimate time remaining : 10d11h43m30s
+04/03/22, 15:35:27.626 INFO [SmartContractAnalyser:221] Got 941 events in block range [8176001:8181001]
+04/03/22, 15:35:27.626 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:36:46.519 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:38:02.585 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:39:40.277 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 15:41:04.857 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 15:42:20.040 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 15:43:34.718 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:44:54.594 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 15:46:17.978 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 15:47:48.396 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 15:49:14.772 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 15:49:14.874 INFO [SmartContractAnalyser:296] Blocks remaining : 7586307, estimate time remaining : 11d5h4m19s
+04/03/22, 15:49:22.245 INFO [SmartContractAnalyser:221] Got 937 events in block range [8181001:8186001]
+04/03/22, 15:49:22.250 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 15:50:41.862 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 15:52:04.932 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 15:53:21.624 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 15:54:37.493 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 15:56:06.016 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 15:57:50.718 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 15:59:07.147 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:00:28.023 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:01:42.504 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:03:07.770 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:03:07.872 INFO [SmartContractAnalyser:296] Blocks remaining : 7581307, estimate time remaining : 12d20h28m57s
+04/03/22, 16:03:13.039 INFO [SmartContractAnalyser:221] Got 639 events in block range [8186001:8191001]
+04/03/22, 16:03:13.039 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:04:04.796 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 16:04:57.074 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 16:05:47.578 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 16:06:40.536 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 16:07:28.519 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 16:08:16.445 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 16:09:07.826 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:10:13.546 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:11:05.501 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:11:52.871 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:11:52.977 INFO [SmartContractAnalyser:296] Blocks remaining : 7576307, estimate time remaining : 11d9h4m49s
+04/03/22, 16:11:57.317 INFO [SmartContractAnalyser:221] Got 586 events in block range [8191001:8196001]
+04/03/22, 16:11:57.317 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:12:44.925 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 16:13:47.486 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 16:14:38.355 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 16:15:41.295 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 16:16:32.027 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 16:17:18.367 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 16:18:08.380 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:18:52.662 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:20:05.610 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:20:54.852 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:20:54.958 INFO [SmartContractAnalyser:296] Blocks remaining : 7571307, estimate time remaining : 11d23h54m29s
+04/03/22, 16:21:00.418 INFO [SmartContractAnalyser:221] Got 722 events in block range [8196001:8201001]
+04/03/22, 16:21:00.418 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:21:59.192 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 16:23:05.563 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 16:24:06.965 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 16:25:05.808 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 16:26:01.588 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 16:27:02.828 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 16:28:03.976 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:29:05.504 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:30:06.199 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:31:07.780 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:31:07.881 INFO [SmartContractAnalyser:296] Blocks remaining : 7566307, estimate time remaining : 11d15h13m8s
+04/03/22, 16:31:15.494 INFO [SmartContractAnalyser:221] Got 854 events in block range [8201001:8206001]
+04/03/22, 16:31:15.499 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:32:25.577 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 16:33:32.605 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 16:34:43.593 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 16:35:56.909 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 16:37:16.181 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 16:38:26.061 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 16:39:41.115 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:40:53.811 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:42:06.376 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:43:17.940 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:43:18.042 INFO [SmartContractAnalyser:296] Blocks remaining : 7561307, estimate time remaining : 11d12h20m21s
+04/03/22, 16:43:26.723 INFO [SmartContractAnalyser:221] Got 999 events in block range [8206001:8211001]
+04/03/22, 16:43:26.724 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:44:50.682 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 16:46:25.719 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 16:48:02.083 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 16:49:23.436 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 16:50:54.403 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 16:52:19.424 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 16:53:44.090 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 16:55:16.801 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 16:56:39.636 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 16:58:04.067 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 16:58:04.169 INFO [SmartContractAnalyser:296] Blocks remaining : 7556307, estimate time remaining : 11d10h8m32s
+04/03/22, 16:58:11.095 INFO [SmartContractAnalyser:221] Got 829 events in block range [8211001:8216001]
+04/03/22, 16:58:11.095 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 16:59:19.444 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:00:28.837 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:01:34.482 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:03:05.118 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:04:10.800 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:05:22.821 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:06:33.502 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 17:07:43.202 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 17:08:51.318 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 17:09:54.637 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 17:09:54.739 INFO [SmartContractAnalyser:296] Blocks remaining : 7551307, estimate time remaining : 11d18h25m22s
+04/03/22, 17:09:59.302 INFO [SmartContractAnalyser:221] Got 684 events in block range [8216001:8221001]
+04/03/22, 17:09:59.307 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 17:11:00.341 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:12:22.204 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:13:16.527 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:14:10.230 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:15:02.568 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:15:58.552 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:16:54.673 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 17:17:54.628 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 17:18:43.826 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 17:19:54.907 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 17:19:55.008 INFO [SmartContractAnalyser:296] Blocks remaining : 7546307, estimate time remaining : 11d4h36m13s
+04/03/22, 17:19:59.783 INFO [SmartContractAnalyser:221] Got 561 events in block range [8221001:8226001]
+04/03/22, 17:19:59.787 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 17:20:44.407 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:21:28.456 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:22:20.329 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:23:02.722 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:23:45.641 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:24:31.945 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:25:16.121 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 17:26:03.809 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 17:26:50.667 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 17:27:33.417 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 17:27:33.518 INFO [SmartContractAnalyser:296] Blocks remaining : 7541307, estimate time remaining : 11d20h37m26s
+04/03/22, 17:27:38.260 INFO [SmartContractAnalyser:221] Got 654 events in block range [8226001:8231001]
+04/03/22, 17:27:38.265 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 17:28:30.314 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:29:50.282 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:30:42.072 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:31:36.221 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:32:28.659 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:33:23.805 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:34:15.088 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 17:35:10.413 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 17:36:02.828 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 17:37:00.083 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 17:37:00.184 INFO [SmartContractAnalyser:296] Blocks remaining : 7536307, estimate time remaining : 11d3h51m27s
+04/03/22, 17:37:07.884 INFO [SmartContractAnalyser:221] Got 815 events in block range [8231001:8236001]
+04/03/22, 17:37:07.885 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 17:38:29.780 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:39:35.801 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:40:47.171 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:41:53.331 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:43:06.213 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:44:13.927 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:45:30.716 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 17:46:49.951 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 17:47:57.754 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 17:49:02.404 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 17:49:02.511 INFO [SmartContractAnalyser:296] Blocks remaining : 7531307, estimate time remaining : 11d10h46m52s
+04/03/22, 17:49:09.411 INFO [SmartContractAnalyser:221] Got 918 events in block range [8236001:8241001]
+04/03/22, 17:49:09.416 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 17:50:37.888 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 17:51:51.678 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 17:53:18.297 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 17:54:52.843 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 17:56:12.695 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 17:57:30.157 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 17:58:50.863 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:00:20.093 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:02:12.551 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:03:32.027 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:03:32.128 INFO [SmartContractAnalyser:296] Blocks remaining : 7526307, estimate time remaining : 11d21h17m17s
+04/03/22, 18:03:37.360 INFO [SmartContractAnalyser:221] Got 727 events in block range [8241001:8246001]
+04/03/22, 18:03:37.360 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:04:40.672 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:05:41.412 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:07:34.728 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:08:35.850 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:09:38.388 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:10:49.267 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 18:11:50.789 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:12:48.968 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:13:45.668 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:14:47.071 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:14:47.177 INFO [SmartContractAnalyser:296] Blocks remaining : 7521307, estimate time remaining : 11d18h20m11s
+04/03/22, 18:14:50.926 INFO [SmartContractAnalyser:221] Got 517 events in block range [8246001:8251001]
+04/03/22, 18:14:50.931 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:15:32.916 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:16:16.561 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:17:00.454 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:17:39.404 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:18:23.456 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:19:06.321 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 18:19:47.886 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:20:28.471 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:21:09.537 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:21:50.137 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:21:50.238 INFO [SmartContractAnalyser:296] Blocks remaining : 7516307, estimate time remaining : 11d2h30m47s
+04/03/22, 18:21:54.005 INFO [SmartContractAnalyser:221] Got 523 events in block range [8251001:8256001]
+04/03/22, 18:21:54.005 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:22:37.398 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:23:21.100 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:24:03.476 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:24:48.000 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:25:29.273 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:26:08.765 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 18:26:51.113 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:27:33.657 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:28:17.866 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:28:59.623 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:28:59.725 INFO [SmartContractAnalyser:296] Blocks remaining : 7511307, estimate time remaining : 11d2h25m52s
+04/03/22, 18:29:05.737 INFO [SmartContractAnalyser:221] Got 702 events in block range [8256001:8261001]
+04/03/22, 18:29:05.742 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:30:08.197 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:31:04.905 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:32:02.457 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:33:05.972 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:34:03.857 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:35:06.505 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 18:36:08.020 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:37:03.899 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:38:06.891 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:38:59.991 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:39:00.092 INFO [SmartContractAnalyser:296] Blocks remaining : 7506307, estimate time remaining : 11d2h24m31s
+04/03/22, 18:39:06.763 INFO [SmartContractAnalyser:221] Got 838 events in block range [8261001:8266001]
+04/03/22, 18:39:06.768 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:40:20.845 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:41:36.320 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:42:52.388 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:43:58.220 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:45:12.527 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:46:27.086 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 18:47:57.376 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 18:49:07.204 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 18:50:39.111 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 18:51:47.577 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 18:51:47.679 INFO [SmartContractAnalyser:296] Blocks remaining : 7501307, estimate time remaining : 11d5h47m10s
+04/03/22, 18:51:55.235 INFO [SmartContractAnalyser:221] Got 942 events in block range [8266001:8271001]
+04/03/22, 18:51:55.236 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 18:53:09.649 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 18:54:30.694 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 18:55:49.132 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 18:57:03.946 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 18:58:21.943 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 18:59:59.349 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:01:28.326 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:02:51.999 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 19:04:15.839 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 19:05:41.495 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 19:05:41.602 INFO [SmartContractAnalyser:296] Blocks remaining : 7496307, estimate time remaining : 11d21h11m1s
+04/03/22, 19:05:47.592 INFO [SmartContractAnalyser:221] Got 806 events in block range [8271001:8276001]
+04/03/22, 19:05:47.597 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 19:06:55.227 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 19:08:05.463 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 19:09:25.361 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 19:10:29.335 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 19:11:33.149 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 19:12:39.892 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:13:50.440 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:14:53.134 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 19:16:53.217 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 19:18:09.711 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 19:18:09.818 INFO [SmartContractAnalyser:296] Blocks remaining : 7491307, estimate time remaining : 11d15h42m54s
+04/03/22, 19:18:13.466 INFO [SmartContractAnalyser:221] Got 527 events in block range [8276001:8281001]
+04/03/22, 19:18:13.466 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 19:19:06.476 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 19:19:48.914 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 19:20:34.301 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 19:21:23.520 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 19:22:08.633 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 19:22:53.401 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:23:32.638 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:24:27.332 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 19:25:12.975 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 19:25:54.521 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 19:25:54.622 INFO [SmartContractAnalyser:296] Blocks remaining : 7486307, estimate time remaining : 11d19h11m23s
+04/03/22, 19:25:59.971 INFO [SmartContractAnalyser:221] Got 739 events in block range [8281001:8286001]
+04/03/22, 19:25:59.976 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 19:27:05.536 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 19:28:03.695 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 19:29:05.998 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 19:30:08.130 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 19:31:04.656 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 19:32:06.914 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:33:26.820 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:34:26.444 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 19:35:44.018 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 19:36:39.725 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 19:36:39.827 INFO [SmartContractAnalyser:296] Blocks remaining : 7481307, estimate time remaining : 11d21h56m8s
+04/03/22, 19:36:47.238 INFO [SmartContractAnalyser:221] Got 848 events in block range [8286001:8291001]
+04/03/22, 19:36:47.238 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 19:37:56.918 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 19:39:08.836 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 19:40:22.778 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 19:41:33.597 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 19:42:43.840 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 19:43:50.859 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:45:01.463 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:46:05.724 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 19:47:11.845 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 19:48:21.714 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 19:48:21.821 INFO [SmartContractAnalyser:296] Blocks remaining : 7476307, estimate time remaining : 11d19h35m40s
+04/03/22, 19:48:31.486 INFO [SmartContractAnalyser:221] Got 1024 events in block range [8291001:8296001]
+04/03/22, 19:48:31.486 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 19:50:01.113 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 19:51:20.978 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 19:52:46.665 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 19:54:18.787 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 19:55:40.007 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 19:57:02.415 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 19:58:30.209 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 19:59:56.621 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:01:26.716 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:02:49.867 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:02:49.969 INFO [SmartContractAnalyser:296] Blocks remaining : 7471307, estimate time remaining : 11d13h44m39s
+04/03/22, 20:02:56.538 INFO [SmartContractAnalyser:221] Got 874 events in block range [8296001:8301001]
+04/03/22, 20:02:56.538 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:04:11.892 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:05:28.932 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 20:06:48.640 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 20:08:12.724 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 20:09:45.651 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 20:10:57.562 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 20:12:05.828 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 20:13:25.404 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:14:47.705 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:16:00.309 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:16:00.411 INFO [SmartContractAnalyser:296] Blocks remaining : 7466307, estimate time remaining : 11d5h30m2s
+04/03/22, 20:16:05.579 INFO [SmartContractAnalyser:221] Got 651 events in block range [8301001:8306001]
+04/03/22, 20:16:05.579 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:17:03.456 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:17:56.250 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 20:18:58.608 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 20:19:57.029 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 20:20:51.177 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 20:21:45.764 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 20:22:34.726 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 20:23:30.354 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:24:24.904 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:25:18.751 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:25:18.854 INFO [SmartContractAnalyser:296] Blocks remaining : 7461307, estimate time remaining : 11d9h48m17s
+04/03/22, 20:25:23.373 INFO [SmartContractAnalyser:221] Got 592 events in block range [8306001:8311001]
+04/03/22, 20:25:23.373 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:26:21.475 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:27:11.874 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 20:27:57.671 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 20:28:44.453 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 20:29:37.348 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 20:30:32.222 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 20:31:19.718 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 20:32:18.602 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:33:07.570 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:33:58.230 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:33:58.332 INFO [SmartContractAnalyser:296] Blocks remaining : 7456307, estimate time remaining : 11d15h40m24s
+04/03/22, 20:34:04.004 INFO [SmartContractAnalyser:221] Got 668 events in block range [8311001:8316001]
+04/03/22, 20:34:04.004 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:35:04.795 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:36:01.220 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 20:36:54.070 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 20:37:46.986 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 20:38:38.378 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 20:39:35.013 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 20:40:32.159 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 20:41:34.210 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:42:30.671 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:43:27.715 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:43:27.816 INFO [SmartContractAnalyser:296] Blocks remaining : 7451307, estimate time remaining : 11d10h20m17s
+04/03/22, 20:43:37.145 INFO [SmartContractAnalyser:221] Got 885 events in block range [8316001:8321001]
+04/03/22, 20:43:37.145 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:44:46.995 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:46:12.348 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 20:47:27.499 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 20:48:40.462 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 20:49:53.228 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 20:51:10.764 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 20:52:27.383 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 20:53:41.950 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 20:54:58.876 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 20:56:12.879 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 20:56:12.981 INFO [SmartContractAnalyser:296] Blocks remaining : 7446307, estimate time remaining : 11d19h36m22s
+04/03/22, 20:56:22.841 INFO [SmartContractAnalyser:221] Got 978 events in block range [8321001:8326001]
+04/03/22, 20:56:22.841 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 20:58:01.309 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 20:59:25.661 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:00:53.247 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:02:12.903 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:03:33.244 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:04:54.906 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:06:19.032 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:07:39.718 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 21:09:02.136 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 21:10:26.085 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 21:10:26.188 INFO [SmartContractAnalyser:296] Blocks remaining : 7441307, estimate time remaining : 11d4h53m14s
+04/03/22, 21:10:33.067 INFO [SmartContractAnalyser:221] Got 870 events in block range [8326001:8331001]
+04/03/22, 21:10:33.072 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 21:11:47.968 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 21:13:02.800 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:14:17.411 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:15:44.848 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:16:59.600 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:18:14.468 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:19:23.766 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:20:38.011 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 21:21:56.760 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 21:23:11.492 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 21:23:11.594 INFO [SmartContractAnalyser:296] Blocks remaining : 7436307, estimate time remaining : 11d1h57m12s
+04/03/22, 21:23:15.950 INFO [SmartContractAnalyser:221] Got 541 events in block range [8331001:8336001]
+04/03/22, 21:23:15.951 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 21:24:05.529 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 21:24:55.612 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:25:49.402 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:26:31.126 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:27:12.942 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:27:56.228 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:28:42.669 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:29:29.967 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 21:30:20.072 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 21:31:11.801 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 21:31:11.902 INFO [SmartContractAnalyser:296] Blocks remaining : 7431307, estimate time remaining : 11d21h35m1s
+04/03/22, 21:31:17.156 INFO [SmartContractAnalyser:221] Got 576 events in block range [8336001:8341001]
+04/03/22, 21:31:17.161 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 21:32:06.155 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 21:32:58.801 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:33:43.831 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:34:33.695 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:35:23.396 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:36:10.850 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:37:00.735 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:37:49.051 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 21:38:36.080 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 21:39:21.649 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 21:39:21.751 INFO [SmartContractAnalyser:296] Blocks remaining : 7426307, estimate time remaining : 11d4h26m50s
+04/03/22, 21:39:27.977 INFO [SmartContractAnalyser:221] Got 751 events in block range [8341001:8346001]
+04/03/22, 21:39:27.978 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 21:40:29.646 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 21:41:30.661 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:42:38.627 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:43:38.529 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:44:36.443 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:45:36.248 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:46:37.350 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:47:37.751 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 21:48:37.345 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 21:49:39.801 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 21:49:39.903 INFO [SmartContractAnalyser:296] Blocks remaining : 7421307, estimate time remaining : 11d3h50m56s
+04/03/22, 21:49:49.297 INFO [SmartContractAnalyser:221] Got 850 events in block range [8346001:8351001]
+04/03/22, 21:49:49.298 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 21:51:01.018 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 21:52:09.975 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 21:53:21.553 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 21:54:28.658 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 21:55:42.539 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 21:56:54.401 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 21:58:09.702 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 21:59:22.154 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:00:36.326 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:01:47.234 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:01:47.335 INFO [SmartContractAnalyser:296] Blocks remaining : 7416307, estimate time remaining : 11d3h27m28s
+04/03/22, 22:01:55.084 INFO [SmartContractAnalyser:221] Got 893 events in block range [8351001:8356001]
+04/03/22, 22:01:55.089 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:03:07.279 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:04:21.658 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 22:05:33.293 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 22:06:44.980 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 22:07:57.052 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 22:09:18.236 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 22:10:48.105 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 22:12:01.123 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:13:35.250 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:14:47.535 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:14:47.637 INFO [SmartContractAnalyser:296] Blocks remaining : 7411307, estimate time remaining : 11d20h35m0s
+04/03/22, 22:14:52.713 INFO [SmartContractAnalyser:221] Got 722 events in block range [8356001:8361001]
+04/03/22, 22:14:52.718 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:15:53.566 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:16:47.838 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 22:17:49.567 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 22:18:50.440 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 22:19:56.482 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 22:20:54.116 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 22:21:53.435 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 22:22:52.673 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:23:46.149 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:24:44.424 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:24:44.526 INFO [SmartContractAnalyser:296] Blocks remaining : 7406307, estimate time remaining : 11d9h45m18s
+04/03/22, 22:24:48.056 INFO [SmartContractAnalyser:221] Got 475 events in block range [8361001:8366001]
+04/03/22, 22:24:48.056 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:25:24.988 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:26:06.120 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 22:26:43.017 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 22:27:18.798 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 22:27:56.213 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 22:28:31.534 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 22:29:08.673 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 22:29:46.327 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:30:28.012 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:31:06.183 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:31:06.284 INFO [SmartContractAnalyser:296] Blocks remaining : 7401307, estimate time remaining : 11d3h48m5s
+04/03/22, 22:31:11.260 INFO [SmartContractAnalyser:221] Got 564 events in block range [8366001:8371001]
+04/03/22, 22:31:11.260 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:31:59.932 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:32:44.100 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 22:33:31.126 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 22:34:14.309 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 22:35:03.956 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 22:35:49.717 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 22:36:38.292 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 22:37:26.979 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:38:10.808 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:38:55.126 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:38:55.232 INFO [SmartContractAnalyser:296] Blocks remaining : 7396307, estimate time remaining : 11d23h50m11s
+04/03/22, 22:39:02.378 INFO [SmartContractAnalyser:221] Got 746 events in block range [8371001:8376001]
+04/03/22, 22:39:02.378 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:40:01.012 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:41:04.709 DEBUG [SmartContractAnalyser:257] Completed 20%
+04/03/22, 22:42:03.207 DEBUG [SmartContractAnalyser:257] Completed 30%
+04/03/22, 22:43:05.394 DEBUG [SmartContractAnalyser:257] Completed 40%
+04/03/22, 22:44:07.763 DEBUG [SmartContractAnalyser:257] Completed 50%
+04/03/22, 22:45:09.294 DEBUG [SmartContractAnalyser:257] Completed 60%
+04/03/22, 22:46:11.198 DEBUG [SmartContractAnalyser:257] Completed 70%
+04/03/22, 22:47:07.499 DEBUG [SmartContractAnalyser:257] Completed 80%
+04/03/22, 22:48:09.979 DEBUG [SmartContractAnalyser:257] Completed 90%
+04/03/22, 22:49:12.339 DEBUG [SmartContractAnalyser:257] Completed 100%
+04/03/22, 22:49:12.441 INFO [SmartContractAnalyser:296] Blocks remaining : 7391307, estimate time remaining : 11d3h22m22s
+04/03/22, 22:49:21.267 INFO [SmartContractAnalyser:221] Got 889 events in block range [8376001:8381001]
+04/03/22, 22:49:21.267 INFO [SmartContractAnalyser:227] Starting flaw analysis
+04/03/22, 22:50:38.523 DEBUG [SmartContractAnalyser:257] Completed 10%
+04/03/22, 22:51:56.647 DEBUG [SmartContractAnalyser:257] Completed 20%

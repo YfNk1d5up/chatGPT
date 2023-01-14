@@ -1,0 +1,65 @@
+13/01/23, 23:17:02.054 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:17:02.054 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:17:02.054 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:17:02.055 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:17:02.055 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:17:02.058 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:17:02.059 DEBUG [util:60] api_version=None data='{"prompt": "Hello, how are you today?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:17:03.990 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1354 request_id=0e540915c31448a7d2aadd60f6dd1dd1 response_code=200
+13/01/23, 23:18:43.466 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:18:43.466 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:18:43.466 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:18:43.466 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:18:43.466 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:18:43.469 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:18:43.470 DEBUG [util:60] api_version=None data='{"prompt": "How can I choose DC and RF voltages for my ion trap", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:18:46.726 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2687 request_id=d8670b6a73e6a0595b3d9b53ba297ffd response_code=200
+13/01/23, 23:21:28.407 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:21:28.407 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:21:28.407 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:21:28.407 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:21:28.407 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:21:28.410 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:21:28.410 DEBUG [util:60] api_version=None data='{"prompt": " - How can I choose DC and RF voltages for my ion trap\\n    - The DC and RF voltages for an ion trap should be determined based on the type of ions that you are trapping. Different ions require different DC and RF voltages for optimal trapping. The trap parameters should be optimized through experiments and simulations. A good starting point for the DC and RF voltages can be found in the literature for your specific ion species.\\n    - What if the ions are Yb+ with a cross design and 50 electrodes ?\\n    - ", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:21:30.821 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1863 request_id=253cf556db404a3ed33938d51ad607c2 response_code=200
+13/01/23, 23:29:16.006 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:29:16.008 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:29:16.008 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:29:16.008 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:29:16.008 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:29:16.012 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:29:16.012 DEBUG [util:60] api_version=None data='{"prompt": "Explain me who you are", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:29:20.245 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3763 request_id=6f8a500ee837774cb6ffa814970d68d7 response_code=200
+13/01/23, 23:49:31.726 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:49:31.726 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:49:31.726 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:49:31.726 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:49:31.726 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:50:12.563 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:50:12.568 DEBUG [util:60] api_version=None data='{"prompt": "I\'m coding an assistant using Chat GPT right now", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:50:13.929 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=791 request_id=095e9915bcc5d537a675e52f4abb7cb7 response_code=200
+13/01/23, 23:50:13.930 INFO [test:96] [ChatGPT]> 
+
+That sounds like a great project! What kind of assistant are you creating?
+13/01/23, 23:50:53.878 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:50:53.883 DEBUG [util:60] api_version=None data='{"prompt": "-I\'m coding an assistant using Chat GPT right now\\n-\\n\\nThat sounds like a great project! What kind of assistant are you creating?\\n-It\'s an assistant that will be able to help me everyday\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:50:55.033 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=971 request_id=31a3d9b09ce431a692be673706b79ca0 response_code=200
+13/01/23, 23:50:55.034 INFO [test:103] [ChatGPT]>  tasks, like reminding me of meetings, helping me with research, and organizing my schedule.
+13/01/23, 23:55:06.775 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:55:06.775 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:55:06.775 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:55:06.775 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:55:06.775 DEBUG [test:48] Verification du dossier 'contracts' 
+13/01/23, 23:55:51.510 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:55:51.515 DEBUG [util:60] api_version=None data='{"prompt": "Hello how are you ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:55:52.689 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=611 request_id=2b994805fb21ed95250c3ab7dc5ced21 response_code=200
+13/01/23, 23:55:52.690 INFO [test:96] [ChatGPT]> I'm doing well, thank you. How about you?
+13/01/23, 23:56:25.191 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+13/01/23, 23:56:25.192 DEBUG [util:60] api_version=None data='{"prompt": "-Hello how are you ?\\n-I\'m doing well, thank you. How about you?\\n-i\'m fine thks\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+13/01/23, 23:56:25.670 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=319 request_id=eb2c9b63dd2cfeb961c883fcfaefc543 response_code=200
+13/01/23, 23:56:25.670 INFO [test:103] [ChatGPT]> ad to hear it.
+13/01/23, 23:58:41.440 DEBUG [test:48] Verification du dossier 'input' 
+13/01/23, 23:58:41.441 DEBUG [test:48] Verification du dossier 'output' 
+13/01/23, 23:58:41.441 DEBUG [test:48] Verification du dossier 'error' 
+13/01/23, 23:58:41.441 DEBUG [test:48] Verification du dossier 'done' 
+13/01/23, 23:58:41.441 DEBUG [test:48] Verification du dossier 'contracts' 

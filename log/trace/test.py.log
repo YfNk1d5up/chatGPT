@@ -1,0 +1,340 @@
+14/01/23, 00:02:02.535 DEBUG [test:48] Verification du dossier 'input' 
+14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'output' 
+14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'error' 
+14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'done' 
+14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'contracts' 
+14/01/23, 00:02:02.536 INFO [test:92] [You]> 
+14/01/23, 00:03:33.153 DEBUG [test:48] Verification du dossier 'input' 
+14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'output' 
+14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'error' 
+14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'done' 
+14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'contracts' 
+14/01/23, 00:03:33.154 INFO [test:92] [You]> 
+14/01/23, 00:03:37.442 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:03:37.442 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that generates a picture using openai", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:03:42.703 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4723 request_id=6ddb459151e79ff6a4ecc0fae380b4f8 response_code=200
+14/01/23, 00:03:42.704 INFO [test:98] [ChatGPT]> import gym
+import matplotlib.pyplot as plt
+
+env = gym.make('CartPole-v1')
+env.reset()
+
+for i_episode in range(20):
+    observation = env.reset()
+    for t in range(100):
+        env.render()
+        action = env.action_space.sample()
+        observation, reward, done, info = env.step(action)
+        if done:
+            print("Episode finished after {} timesteps".format(t+1))
+            break
+
+env.close()
+
+# Generate a picture
+fig = plt.figure()
+plt.imshow(env.render(mode='rgb_array'))
+fig.savefig('cartpole.png')
+14/01/23, 00:03:42.704 INFO [test:92] [You]> 
+14/01/23, 00:04:46.442 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:04:46.447 DEBUG [util:60] api_version=None data='{"prompt": "-write a python script that generates a picture using openai\\n-import gym\\nimport matplotlib.pyplot as plt\\n\\nenv = gym.make(\'CartPole-v1\')\\nenv.reset()\\n\\nfor i_episode in range(20):\\n    observation = env.reset()\\n    for t in range(100):\\n        env.render()\\n        action = env.action_space.sample()\\n        observation, reward, done, info = env.step(action)\\n        if done:\\n            print(\\"Episode finished after {} timesteps\\".format(t+1))\\n            break\\n\\nenv.close()\\n\\n# Generate a picture\\nfig = plt.figure()\\nplt.imshow(env.render(mode=\'rgb_array\'))\\nfig.savefig(\'cartpole.png\')\\n-i need the code to use openai library to generate the picture\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:04:55.894 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=9247 request_id=5ba96a3bbff69fb724a2b257b32bda5d response_code=200
+14/01/23, 00:04:55.894 INFO [test:104] [ChatGPT]> 
+import gym
+import matplotlib.pyplot as plt
+
+env = gym.make('CartPole-v1')
+env.reset()
+
+for i_episode in range(20):
+    observation = env.reset()
+    for t in range(100):
+        env.render()
+        action = env.action_space.sample()
+        observation, reward, done, info = env.step(action)
+        if done:
+            print("Episode finished after {} timesteps".format(t+1))
+            break
+
+env.close()
+
+# Generate a picture using OpenAI library
+from gym import envs
+from gym.wrappers import Monitor
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+env = gym.make('CartPole-v1')
+env = Monitor(env, "./gym-results", force=True)
+
+observation = env.reset()
+for t in range(100):
+    env.render()
+    action = env.action_space.sample()
+    observation, reward, done, info = env.step(action)
+    if done:
+        print("Episode finished after {} timesteps".format(t+1))
+        break
+
+env.close()
+
+# Generate a picture
+fig = plt.figure()
+plt.imshow(env.render(mode='rgb_array'))
+fig.savefig('cartpole.png')
+14/01/23, 00:04:55.894 INFO [test:92] [You]> 
+14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:14:10.493 INFO [test:94] [You]> 
+14/01/23, 00:15:14.777 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:15:14.777 DEBUG [util:60] api_version=None data='{"prompt": "Write a python code that generates a txt file counting lines from 0 to 100 and save it in current directory", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:15:16.741 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1281 request_id=619683f3c122998e9f66097417d9778e response_code=200
+14/01/23, 00:15:16.742 INFO [test:103] [ChatGPT]> with open('lines_file.txt', 'w') as f:
+    for i in range(101):
+        f.write(str(i) + '\n')
+14/01/23, 00:15:16.742 INFO [test:94] [You]> 
+14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:15:56.025 INFO [test:94] [You]> 
+14/01/23, 00:16:33.074 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:16:33.074 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that removes the file lines_file.txt in the current directory", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:16:35.092 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1495 request_id=5a2cb872aef9506f88322ce0be767b22 response_code=200
+14/01/23, 00:16:35.093 INFO [test:103] [ChatGPT]> import os
+
+if os.path.exists("lines_file.txt"):
+  os.remove("lines_file.txt")
+else:
+  print("The file does not exist")
+14/01/23, 00:16:35.093 INFO [test:94] [You]> 
+14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:19:03.546 INFO [test:145] New chat
+14/01/23, 00:19:03.546 INFO [test:94] [You]> 
+14/01/23, 00:20:09.755 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:20:09.755 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that creates a text file in the current directory. Then it appends 5 url of cat pictures and finally the age of earth.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:20:18.328 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=8049 request_id=16a61c72d6edf0e499f88916f66776c1 response_code=200
+14/01/23, 00:20:18.334 INFO [test:103] [ChatGPT]> #create a file
+file = open("cat_pictures.txt","w")
+
+#append 5 urls of cat pictures
+file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
+file.write("https://www.petmd.com/sites/default/files/Acute-Cat-Diarrhea-47066074.jpg\n")
+file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
+file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
+file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
+
+#append the age of earth
+file.write("4.543 billion years")
+
+#close the file
+file.close()
+14/01/23, 00:20:18.334 INFO [test:94] [You]> 
+14/01/23, 00:20:59.618 INFO [test:149] Chat went wrong
+14/01/23, 00:20:59.618 INFO [test:145] New chat
+14/01/23, 00:20:59.618 INFO [test:94] [You]> 
+14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:25:06.038 INFO [test:157] New chat
+14/01/23, 00:25:06.038 INFO [test:94] [You]> 
+14/01/23, 00:25:09.470 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:25:09.470 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that creates a text file in the current directory. Then it appends 5 url of cat pictures and finally the age of earth.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:25:17.144 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=7130 request_id=bf1775d47fa99901dcf453c43b0e4f56 response_code=200
+14/01/23, 00:25:17.149 INFO [test:108] [ChatGPT]> #Create the file
+f = open("cat_pictures.txt","w+")
+
+#Append 5 URLs of cat pictures
+f.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
+f.write("https://www.catster.com/wp-content/uploads/2017/08/Pixiebob-cat.jpg\n")
+f.write("https://www.catster.com/wp-content/uploads/2017/08/Siamese-cat-2.jpg\n")
+f.write("https://www.catster.com/wp-content/uploads/2017/08/British-shorthair-cat.jpg\n")
+f.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-gray-cat-looking-up-surprised.jpg\n")
+
+#Append the age of earth
+f.write("The age of earth is estimated to be around 4.54 billion years")
+
+#Close the file
+f.close()
+14/01/23, 00:25:17.150 INFO [test:94] [You]> 
+14/01/23, 00:25:27.884 INFO [test:161] Chat went wrong
+14/01/23, 00:25:27.885 INFO [test:157] New chat
+14/01/23, 00:25:27.886 INFO [test:94] [You]> 
+14/01/23, 00:28:30.505 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:28:30.506 DEBUG [util:60] api_version=None data='{"prompt": "give me a python code deleting the file cat_pictures.txt", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:28:32.483 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1431 request_id=7fbc618a2e1de3455cda0ce9feaebe7d response_code=200
+14/01/23, 00:28:32.483 INFO [test:108] [ChatGPT]> import os
+os.remove("cat_pictures.txt")
+14/01/23, 00:28:32.483 INFO [test:94] [You]> 
+14/01/23, 00:28:45.263 INFO [test:161] Chat went wrong
+14/01/23, 00:28:45.263 INFO [test:157] New chat
+14/01/23, 00:28:45.263 INFO [test:94] [You]> 
+14/01/23, 00:30:27.037 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:30:27.038 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:30:27.038 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:30:27.039 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:30:27.039 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:30:27.039 INFO [test:157] New chat
+14/01/23, 00:30:27.039 INFO [test:94] [You]> 
+14/01/23, 00:31:30.907 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:31:30.907 DEBUG [util:60] api_version=None data='{"prompt": "write a python script using openai to generate a picture according to a prompt i give", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:31:35.693 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4282 request_id=c4ff0965e00c39852fc6393a2d202361 response_code=200
+14/01/23, 00:31:35.694 INFO [test:108] [ChatGPT]> import gym
+import numpy as np
+from PIL import Image
+
+# Create a new environment
+env = gym.make('CartPole-v1')
+
+# Prompt
+prompt = "A picture of a person standing on a beach, watching the sunset"
+
+# Set the environment to the desired prompt
+env.env.unwrapped.set_prompt(prompt)
+
+# Generate the image
+observation = env.reset()
+img = env.render(mode='rgb_array')
+
+# Save the image
+img = Image.fromarray(img)
+img.save('sunset_beach.png')
+14/01/23, 00:31:35.695 INFO [test:94] [You]> 
+14/01/23, 00:33:42.094 INFO [test:159] Chat went well
+14/01/23, 00:33:42.095 INFO [test:157] New chat
+14/01/23, 00:33:42.095 INFO [test:94] [You]> 
+14/01/23, 00:35:49.405 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:35:49.405 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that generates a picture using ai. The picture needs to corrrespond a description on a prompt entered by user", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:35:53.394 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3465 request_id=87d14ad542caf4dfcebba4b0d8b9b3b2 response_code=200
+14/01/23, 00:35:53.394 INFO [test:108] [ChatGPT]> #import necessary libraries
+import matplotlib.pyplot as plt
+import numpy as np
+from PIL import Image
+
+#prompt user for a description
+prompt = input("Please enter a description: ")
+
+#generate a picture based on the description
+arr = np.random.randint(255, size=(100,100,3))
+img = Image.fromarray(arr.astype('uint8'), 'RGB')
+
+#display the picture
+plt.imshow(img)
+plt.title(prompt)
+plt.show()
+14/01/23, 00:35:53.394 INFO [test:94] [You]> 
+14/01/23, 00:36:18.181 INFO [test:159] Chat went well
+14/01/23, 00:36:18.182 INFO [test:157] New chat
+14/01/23, 00:36:18.187 INFO [test:94] [You]> 
+14/01/23, 00:36:50.568 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:36:50.568 DEBUG [util:60] api_version=None data='{"prompt": "what python library can i use to generate a picture from a prompt using ai", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:36:52.217 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1460 request_id=227df766c183624129a78ceb2c701eb1 response_code=200
+14/01/23, 00:36:52.218 INFO [test:108] [ChatGPT]> You can use the Python library GPT-3 to generate a picture from a prompt using AI. GPT-3 is a natural language processing model developed by OpenAI that uses deep learning to generate text. It can also be used to generate images from text prompts.
+14/01/23, 00:36:52.218 INFO [test:94] [You]> 
+14/01/23, 00:37:20.443 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:37:20.443 DEBUG [util:60] api_version=None data='{"prompt": "-what python library can i use to generate a picture from a prompt using ai\\n-You can use the Python library GPT-3 to generate a picture from a prompt using AI. GPT-3 is a natural language processing model developed by OpenAI that uses deep learning to generate text. It can also be used to generate images from text prompts.\\n-Give me a code example\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:37:23.990 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3374 request_id=c05656cf54d4f2f58d19341b8cc4794c response_code=200
+14/01/23, 00:37:23.990 INFO [test:118] [ChatGPT]> Here is an example of how to use GPT-3 to generate an image from a prompt:
+
+import gpt_3
+
+# Create a GPT-3 model
+model = gpt_3.GPT(engine="davinci")
+
+# Prompt the model with a text prompt
+prompt = "Draw a picture of a cat"
+
+# Generate an image
+image = model.generate(prompt)
+
+# Save the image
+image.save("cat_picture.png")
+14/01/23, 00:37:23.990 INFO [test:94] [You]> 
+14/01/23, 00:51:33.153 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:51:33.154 INFO [test:175] New chat
+14/01/23, 00:51:33.154 INFO [test:176] Choose mode (Chat - Image)
+14/01/23, 00:51:39.191 INFO [test:94] [You]> 
+14/01/23, 00:52:08.277 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 00:52:08.283 DEBUG [util:60] api_version=None data='{"prompt": "A big frog running on the roof of a bus", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 00:52:14.525 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5747 request_id=e260a6a651c691910300b073c9cebfe9 response_code=200
+14/01/23, 00:52:14.526 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-o3hr6MLCRtxJGiMiFdgM9XLm.png?st=2023-01-13T22%3A52%3A14Z&se=2023-01-14T00%3A52%3A14Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T18%3A25%3A32Z&ske=2023-01-14T18%3A25%3A32Z&sks=b&skv=2021-08-06&sig=E13fEfPTS6vOzoNSp31Bc/v9SMuM5V8KnE9OX0EajZ4%3D
+14/01/23, 00:52:14.526 INFO [test:179] image went well
+14/01/23, 00:52:14.526 INFO [test:175] New chat
+14/01/23, 00:52:14.526 INFO [test:176] Choose mode (Chat - Image)
+14/01/23, 00:53:08.126 INFO [test:94] [You]> 
+14/01/23, 00:53:48.108 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+14/01/23, 00:53:48.108 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that saves an image from its url", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
+14/01/23, 00:53:52.550 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3907 request_id=ecfe7b825254099958f7d0dd44505ce3 response_code=200
+14/01/23, 00:53:52.552 INFO [test:119] [ChatGPT]> import urllib.request
+
+url = 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
+
+urllib.request.urlretrieve(url, 'image.jpg')
+14/01/23, 00:53:52.552 INFO [test:94] [You]> 
+14/01/23, 00:57:56.882 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 00:57:56.885 INFO [test:180] New chat
+14/01/23, 00:57:56.885 INFO [test:181] Choose mode (Chat - Image)
+14/01/23, 00:58:11.230 INFO [test:94] [You]> 
+14/01/23, 00:58:56.275 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 00:58:56.275 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a ring doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 00:59:03.415 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6676 request_id=936f8d464011bc391dc840c756cdaf81 response_code=200
+14/01/23, 00:59:03.415 ERROR [test:103] expected str, bytes or os.PathLike object, not ConfigJSONScalar
+14/01/23, 00:59:03.420 INFO [test:186] image went wrong
+14/01/23, 00:59:03.420 INFO [test:180] New chat
+14/01/23, 00:59:03.420 INFO [test:181] Choose mode (Chat - Image)
+14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 01:00:24.614 INFO [test:182] New chat
+14/01/23, 01:00:24.614 INFO [test:183] Choose mode (Chat - Image)
+14/01/23, 01:00:28.790 INFO [test:94] [You]> 
+14/01/23, 01:00:31.674 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 01:00:31.675 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a ring doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 01:00:38.069 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5907 request_id=75450551eded266461cffab83b979d9b response_code=200
+14/01/23, 01:00:39.819 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-D9ZVNWfR5Apa2Rp9dxEqLzWB.png?st=2023-01-13T23%3A00%3A38Z&se=2023-01-14T01%3A00%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T19%3A55%3A03Z&ske=2023-01-14T19%3A55%3A03Z&sks=b&skv=2021-08-06&sig=YMfsEWlW/Rt17kLjkOKEMNzjForuWrRrZk5CpwkEQDA%3D
+14/01/23, 01:00:39.819 INFO [test:186] image went well
+14/01/23, 01:00:39.819 INFO [test:182] New chat
+14/01/23, 01:00:39.819 INFO [test:183] Choose mode (Chat - Image)
+14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 01:01:22.552 INFO [test:182] New chat
+14/01/23, 01:01:22.552 INFO [test:183] Choose mode (Chat - Image)
+14/01/23, 01:01:27.213 INFO [test:94] [You]> 
+14/01/23, 01:01:35.765 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+14/01/23, 01:01:35.766 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a cat doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
+14/01/23, 01:01:41.990 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5741 request_id=558a88edeba55e2f2e91b41016897cf5 response_code=200
+14/01/23, 01:01:44.015 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-uRL7cV3eY43CT9tGRWDIk60x.png?st=2023-01-13T23%3A01%3A41Z&se=2023-01-14T01%3A01%3A41Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T19%3A09%3A57Z&ske=2023-01-14T19%3A09%3A57Z&sks=b&skv=2021-08-06&sig=S6FvsONn2osQdRF0CTORE9MnXV9pix61q64zdCmphzQ%3D
+14/01/23, 01:01:44.016 INFO [test:186] image went well
+14/01/23, 01:01:44.016 INFO [test:182] New chat
+14/01/23, 01:01:44.016 INFO [test:183] Choose mode (Chat - Image)
+14/01/23, 01:03:06.514 DEBUG [test:49] Verification du dossier 'input' 
+14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'output' 
+14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'error' 
+14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'done' 
+14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'contracts' 
+14/01/23, 01:03:06.515 INFO [test:182] New chat
+14/01/23, 01:03:06.515 INFO [test:183] Choose mode (Chat - Image)

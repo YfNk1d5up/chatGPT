@@ -1,0 +1,3 @@
+json-cfg
+openai
+python-dotenv
