@@ -7,8 +7,7 @@ import sys
 import jsoncfg
 import openai
 import whisper
-import sounddevice as sd
-from scipy.io.wavfile import write
+import gradio as gr
 import shutil
 from dotenv import load_dotenv
 import urllib.request
@@ -23,6 +22,7 @@ import log.registre as registre
 globalConfig = None
 exe_dir = ""
 model_engine = "text-davinci-003"
+raz_next_inp = False
 
 
 # ---------------------------------------------------------------- #
@@ -94,6 +94,7 @@ def remove_file(filename):
         return False
 
 
+"""
 def promptManager(mode, prompt, last_resp):
     logger.info("[You]> ")
     question = recordSound()
@@ -138,6 +139,7 @@ def promptManager(mode, prompt, last_resp):
                 logger.error(e)
                 return False
     return True
+"""
 
 
 def chatGPTresponse(prompt):
@@ -152,13 +154,13 @@ def chatGPTresponse(prompt):
     )
     return completion.choices[0].text
 
+
 def chatGPTImage(prompt):
     response = openai.Image.create(
         prompt=prompt,
         n=1,
         size="1024x1024"
     )
-
 
     url = response['data'][0]['url']
     try:
@@ -167,43 +169,88 @@ def chatGPTImage(prompt):
         logger.error(e)
     return url
 
-def SpeechToText(audio):
-    model = whisper.load_model("base")
+
+def openai_create(prompt):
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt,
+        temperature=0.5,
+        max_tokens=150,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0.6,
+        stop=[" Human:", " AI:"]
+    )
+    logger.info("[ChatGPT]> " + response.choices[0].text)
+    return response.choices[0].text
+
+
+def transcribe(audio):
+    # time.sleep(3)
     # load audio and pad/trim it to fit 30 seconds
     audio = whisper.load_audio(audio)
     audio = whisper.pad_or_trim(audio)
 
     # make log-Mel spectrogram and move to the same device as the model
-    mel = whisper.log_mel_spectrogram(audio).to(model.device)
+    mel = whisper.log_mel_spectrogram(audio).to(whisper_model.device)
 
     # detect the spoken language
-    _, probs = model.detect_language(mel)
-    print(f"Detected language: {max(probs, key=probs.get)}")
+    _, probs = whisper_model.detect_language(mel)
+    logger.info(f"Detected language: {max(probs, key=probs.get)}")
 
     # decode the audio
-    options = whisper.DecodingOptions(fp16 = False)
-    result = whisper.decode(model, mel, options)
-
-    # print the recognized text
+    options = whisper.DecodingOptions(fp16=False)
+    result = whisper.decode(whisper_model, mel, options)
+    logger.info("[You]> " + result.text)
     return result.text
 
-def recordSound():
-    fs = 48000  # Sample rate
-    logger.info("Enter seconds to record & Press enter to start recording")
-    seconds = input()
-    logger.info('[Recording '+str(seconds)+']>')
-    myrecording = sd.rec(int(int(seconds)* fs), samplerate=fs, channels=1)
-    sd.wait()  # Wait until recording is finished
-    logger.info('Recorded')
-    file = os.path.join(exe_dir, globalConfig.folder.temp(),'output.wav')
-    write(file, fs, myrecording)  # Save as WAV file
-    return SpeechToText(file)
+
+def chatgpt_clone(input, record, history):
+    text_recognised = ""
+    if input == "":
+        try:
+            text_recognised = transcribe(record)
+        except Exception as e:
+            logger.error(e)
+    else:
+        text_recognised = input
+    history = history or []
+    s = list(sum(history, ()))
+    s.append(text_recognised)
+    if "image" in text_recognised.lower():
+        try:
+            url = chatGPTImage(text_recognised)
+            logger.info("[ChatGPT]> " + url)
+            output = "L'image a bien été générée"
+
+        except Exception as e:
+            logger.error(e)
+            output = "Erreur pendant la génération de l'image"
+    elif "execute code" in text_recognised.lower():
+        try:
+            print(history)
+            #exec(history)
+            output = "Le code s'est bien executé"
+        except Exception as e:
+            logger.error(e)
+            output = "Erreur lors de l'éxécution du code"
+    else:
+        if raz_next_inp:
+            inp = text_recognised
+        else:
+            inp = ' '.join(s)
+        logger.info("[input]> " + inp)
+        output = openai_create(inp)
+    history.append((text_recognised, output))
+    return history, history
+
 
 def start():
     # Recuperation de la configuration avec json
     global exe_dir
     exe_dir = dir_folder()
-
+    global raz_next_inp
+    raz_next_inp = False
     fichierconf = registre.confModule(exe_dir)
     global globalConfig
     globalConfig = jsoncfg.load_config(fichierconf)
@@ -217,6 +264,36 @@ def start():
     load_dotenv(dotenv_path)
     openai.api_key = os.environ.get("openai_API_KEY")
 
+    global whisper_model
+    whisper_model = whisper.load_model("small")
+
+    block = gr.Blocks()
+
+    with block:
+        gr.Markdown("""<h1><center>Better than Alexa</center></h1>
+        """)
+        chatbot = gr.Chatbot()
+        message = gr.Textbox(placeholder="Ecrire à chatGPT")
+        record = gr.inputs.Audio(source="microphone", type="filepath")
+        state = gr.State()
+        submit = gr.Button("SEND")
+        submit.click(chatgpt_clone, inputs=[message, record, state], outputs=[chatbot, state])
+
+    block.launch(debug=False, server_name="192.168.1.10")
+
+    """
+    gr.Interface(
+        title='OpenAI Whisper ASR Gradio Web UI',
+        fn=transcribe,
+        inputs=[
+            gr.inputs.Audio(source="microphone", type="filepath")
+        ],
+        outputs=[
+            "textbox"
+        ],
+        live=True).launch()
+    """
+    """
     while True:
         logger.info("New chat")
         logger.info("Choose mode (Chat - Image)")
@@ -227,6 +304,8 @@ def start():
             logger.info(mode.lower() + " went well")
         else:
             logger.info(mode.lower() + " went wrong")
+    """
+
 
 # ---------------------------------------------------------------- #
 # ------------------------  MAIN  -------------------------------- #

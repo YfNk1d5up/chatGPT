@@ -1,755 +1,448 @@
-14/01/23, 00:02:02.535 DEBUG [test:48] Verification du dossier 'input' 
-14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'output' 
-14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'error' 
-14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'done' 
-14/01/23, 00:02:02.536 DEBUG [test:48] Verification du dossier 'contracts' 
-14/01/23, 00:02:02.536 INFO [test:92] [You]> 
-14/01/23, 00:03:33.153 DEBUG [test:48] Verification du dossier 'input' 
-14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'output' 
-14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'error' 
-14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'done' 
-14/01/23, 00:03:33.154 DEBUG [test:48] Verification du dossier 'contracts' 
-14/01/23, 00:03:33.154 INFO [test:92] [You]> 
-14/01/23, 00:03:37.442 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:03:37.442 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that generates a picture using openai", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:03:42.703 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4723 request_id=6ddb459151e79ff6a4ecc0fae380b4f8 response_code=200
-14/01/23, 00:03:42.704 INFO [test:98] [ChatGPT]> import gym
-import matplotlib.pyplot as plt
+15/01/23, 00:28:27.746 DEBUG [test:52] Verification du dossier 'models' 
+15/01/23, 00:28:27.747 DEBUG [test:52] Verification du dossier 'output' 
+15/01/23, 00:28:27.747 DEBUG [test:52] Verification du dossier 'error' 
+15/01/23, 00:28:27.747 DEBUG [test:52] Verification du dossier 'done' 
+15/01/23, 00:28:27.747 DEBUG [test:52] Verification du dossier 'temp' 
+15/01/23, 00:28:34.055 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:28:34.827 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.827 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.832 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.832 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.833 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.833 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.833 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:28:34.834 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:28:34.892 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:29:17.464 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+15/01/23, 00:29:17.464 DEBUG [util:60] api_version=None data='{"model": "text-davinci-003", "prompt": "I want to test you", "temperature": 0.5, "max_tokens": 150, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0.6, "stop": [" Human:", " AI:"]}' message='Post details'
+15/01/23, 00:29:18.823 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=789 request_id=9f4b90fbbe19c43d5dc2673677398ac8 response_code=200
+15/01/23, 00:29:18.833 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.833 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.834 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:29:18.835 DEBUG [code:11] entering code: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [fence:11] entering fence: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [blockquote:14] entering blockquote: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [hr:15] entering hr: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [list:101] entering list: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [reference:11] entering reference: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [html_block:35] entering html_block: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [heading:14] entering heading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [lheading:12] entering lheading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:29:18.835 DEBUG [paragraph:12] entering paragraph: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:31:57.121 DEBUG [test:52] Verification du dossier 'models' 
+15/01/23, 00:31:57.121 DEBUG [test:52] Verification du dossier 'output' 
+15/01/23, 00:31:57.121 DEBUG [test:52] Verification du dossier 'error' 
+15/01/23, 00:31:57.121 DEBUG [test:52] Verification du dossier 'done' 
+15/01/23, 00:31:57.121 DEBUG [test:52] Verification du dossier 'temp' 
+15/01/23, 00:32:01.607 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:32:02.378 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.379 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.379 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.380 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.380 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.380 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.381 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:02.562 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:32:04.893 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.893 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.893 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.894 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.894 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.894 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.894 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:32:04.896 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:36:00.789 DEBUG [test:52] Verification du dossier 'models' 
+15/01/23, 00:36:00.789 DEBUG [test:52] Verification du dossier 'output' 
+15/01/23, 00:36:00.790 DEBUG [test:52] Verification du dossier 'error' 
+15/01/23, 00:36:00.790 DEBUG [test:52] Verification du dossier 'done' 
+15/01/23, 00:36:00.790 DEBUG [test:52] Verification du dossier 'temp' 
+15/01/23, 00:36:05.215 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:36:05.992 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.992 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.992 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.993 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.993 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.993 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.993 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:36:05.998 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:36:06.093 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:40:18.200 DEBUG [test:52] Verification du dossier 'models' 
+15/01/23, 00:40:18.200 DEBUG [test:52] Verification du dossier 'output' 
+15/01/23, 00:40:18.200 DEBUG [test:52] Verification du dossier 'error' 
+15/01/23, 00:40:18.200 DEBUG [test:52] Verification du dossier 'done' 
+15/01/23, 00:40:18.200 DEBUG [test:52] Verification du dossier 'temp' 
+15/01/23, 00:40:22.698 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:40:23.484 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.485 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.485 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.485 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.486 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.486 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.486 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:40:23.490 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:40:23.578 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:40:49.464 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audio8ugf3i6g.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 00:40:56.363 INFO [test:198] Detected language: fr
+15/01/23, 00:41:03.735 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+15/01/23, 00:41:03.736 DEBUG [util:60] api_version=None data='{"model": "text-davinci-003", "prompt": "Salut! Comment vas-tu?", "temperature": 0.5, "max_tokens": 150, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0.6, "stop": [" Human:", " AI:"]}' message='Post details'
+15/01/23, 00:41:05.004 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=717 request_id=54e6abbf751544bbae18d043b29b07db response_code=200
+15/01/23, 00:41:05.008 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.008 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.009 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.009 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.009 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:41:05.009 DEBUG [code:11] entering code: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [fence:11] entering fence: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [blockquote:14] entering blockquote: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [hr:15] entering hr: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [list:101] entering list: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [reference:11] entering reference: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [html_block:35] entering html_block: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [heading:14] entering heading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [lheading:12] entering lheading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 00:41:05.009 DEBUG [paragraph:12] entering paragraph: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:06:15.448 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:06:15.448 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:06:15.448 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:06:15.448 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:06:15.448 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:06:20.049 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:06:20.844 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.844 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.844 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.844 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.845 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.845 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.845 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:06:20.851 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:06:20.927 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:06:47.109 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audiolxcuanif.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 01:06:53.261 INFO [test:199] Detected language: fr
+15/01/23, 01:07:00.699 INFO [test:204] [You]> Images, hommes, debout, face à la mer.
+15/01/23, 01:08:51.745 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:08:51.745 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:08:51.745 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:08:51.745 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:08:51.745 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:08:56.542 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:08:57.291 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.291 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:08:57.292 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:08:57.331 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:09:10.855 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audioz7p2bbc7.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 01:09:17.733 INFO [test:199] Detected language: fr
+15/01/23, 01:09:24.488 INFO [test:204] [You]> Image homme debout face à la mer
+15/01/23, 01:10:55.432 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:10:55.433 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:10:55.433 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:10:55.433 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:10:55.433 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:11:00.183 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:11:00.934 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.934 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:11:00.935 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:14:25.861 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:14:25.861 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:14:25.861 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:14:25.861 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:14:25.861 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:14:30.738 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:14:31.491 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.491 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:14:31.492 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:14:31.543 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:14:42.972 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audio2oxje4hp.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 01:14:49.810 INFO [test:199] Detected language: fr
+15/01/23, 01:14:56.943 INFO [test:204] [You]> l'image homme de bouffe à sa la mère
+15/01/23, 01:14:56.996 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+15/01/23, 01:14:56.996 DEBUG [util:60] api_version=None data='{"prompt": "l\'image homme de bouffe \\u00e0 sa la m\\u00e8re", "n": 1, "size": "1024x1024"}' message='Post details'
+15/01/23, 01:15:03.371 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5878 request_id=909e0bde1b9c81a7522a6a1156ac166b response_code=200
+15/01/23, 01:15:07.975 INFO [test:216] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-Jk2LqyCe7ZWh3EmFRv30HVSR.png?st=2023-01-14T23%3A15%3A03Z&se=2023-01-15T01%3A15%3A03Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T17%3A50%3A39Z&ske=2023-01-15T17%3A50%3A39Z&sks=b&skv=2021-08-06&sig=PkhT64kFw1t8ijJB7jqTsBsFbff02lD8UrhK2PKV3Fw%3D
+15/01/23, 01:15:07.976 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.976 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:07.977 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:48.398 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:15:48.399 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:15:48.399 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:15:48.399 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:15:48.399 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:15:54.020 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:15:54.772 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.772 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:15:54.773 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:15:54.810 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:26:36.430 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:26:36.430 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:26:36.430 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:26:36.430 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:26:36.430 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:26:40.745 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:26:41.539 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.540 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.540 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.541 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.541 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.541 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.542 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:26:41.546 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:26:41.628 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:43:34.063 DEBUG [test:53] Verification du dossier 'models' 
+15/01/23, 01:43:34.063 DEBUG [test:53] Verification du dossier 'output' 
+15/01/23, 01:43:34.064 DEBUG [test:53] Verification du dossier 'error' 
+15/01/23, 01:43:34.064 DEBUG [test:53] Verification du dossier 'done' 
+15/01/23, 01:43:34.064 DEBUG [test:53] Verification du dossier 'temp' 
+15/01/23, 01:43:38.269 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 01:43:39.043 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.043 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.043 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.044 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.044 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.044 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.044 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:43:39.049 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:43:39.131 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 01:44:36.804 INFO [test:242] [input]> Traduis moi "j'aime trouver des pépites" en anglais
+15/01/23, 01:44:36.889 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+15/01/23, 01:44:36.889 DEBUG [util:60] api_version=None data='{"model": "text-davinci-003", "prompt": "Traduis moi \\"j\'aime trouver des p\\u00e9pites\\" en anglais", "temperature": 0.5, "max_tokens": 150, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0.6, "stop": [" Human:", " AI:"]}' message='Post details'
+15/01/23, 01:44:38.023 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=554 request_id=59dd9f8958de1eaf888dc72e1a6b7774 response_code=200
+15/01/23, 01:44:38.032 INFO [test:184] [ChatGPT]> 
 
-env = gym.make('CartPole-v1')
-env.reset()
+I love finding gems.
+15/01/23, 01:44:38.034 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.034 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.034 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.035 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.036 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:44:38.037 DEBUG [code:11] entering code: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.037 DEBUG [fence:11] entering fence: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.037 DEBUG [blockquote:14] entering blockquote: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.037 DEBUG [hr:15] entering hr: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.037 DEBUG [list:101] entering list: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.037 DEBUG [reference:11] entering reference: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.038 DEBUG [html_block:35] entering html_block: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.038 DEBUG [heading:14] entering heading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.038 DEBUG [lheading:12] entering lheading: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:44:38.038 DEBUG [paragraph:12] entering paragraph: StateBlock(line=2,level=0,tokens=0), 2, 3, False
+15/01/23, 01:45:21.050 INFO [test:242] [input]> <p>Traduis moi &quot;j'aime trouver des pépites&quot; en anglais</p>
+ <p>I love finding gems.</p>
+ Écris moi un code en python qui réalisé cette traduction
+15/01/23, 01:45:21.051 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+15/01/23, 01:45:21.051 DEBUG [util:60] api_version=None data='{"model": "text-davinci-003", "prompt": "<p>Traduis moi &quot;j\'aime trouver des p\\u00e9pites&quot; en anglais</p>\\n <p>I love finding gems.</p>\\n \\u00c9cris moi un code en python qui r\\u00e9alis\\u00e9 cette traduction", "temperature": 0.5, "max_tokens": 150, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0.6, "stop": [" Human:", " AI:"]}' message='Post details'
+15/01/23, 01:45:23.488 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2238 request_id=eaac3a770e3145f896da3d1281e8bdd3 response_code=200
+15/01/23, 01:45:23.489 INFO [test:184] [ChatGPT]> 
 
-for i_episode in range(20):
-    observation = env.reset()
-    for t in range(100):
-        env.render()
-        action = env.action_space.sample()
-        observation, reward, done, info = env.step(action)
-        if done:
-            print("Episode finished after {} timesteps".format(t+1))
-            break
+def translate(sentence):
+    translation = ""
+    if sentence == "j'aime trouver des pépites":
+        translation = "I love finding gems."
+    return translation
 
-env.close()
-
-# Generate a picture
-fig = plt.figure()
-plt.imshow(env.render(mode='rgb_array'))
-fig.savefig('cartpole.png')
-14/01/23, 00:03:42.704 INFO [test:92] [You]> 
-14/01/23, 00:04:46.442 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:04:46.447 DEBUG [util:60] api_version=None data='{"prompt": "-write a python script that generates a picture using openai\\n-import gym\\nimport matplotlib.pyplot as plt\\n\\nenv = gym.make(\'CartPole-v1\')\\nenv.reset()\\n\\nfor i_episode in range(20):\\n    observation = env.reset()\\n    for t in range(100):\\n        env.render()\\n        action = env.action_space.sample()\\n        observation, reward, done, info = env.step(action)\\n        if done:\\n            print(\\"Episode finished after {} timesteps\\".format(t+1))\\n            break\\n\\nenv.close()\\n\\n# Generate a picture\\nfig = plt.figure()\\nplt.imshow(env.render(mode=\'rgb_array\'))\\nfig.savefig(\'cartpole.png\')\\n-i need the code to use openai library to generate the picture\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:04:55.894 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=9247 request_id=5ba96a3bbff69fb724a2b257b32bda5d response_code=200
-14/01/23, 00:04:55.894 INFO [test:104] [ChatGPT]> 
-import gym
-import matplotlib.pyplot as plt
-
-env = gym.make('CartPole-v1')
-env.reset()
-
-for i_episode in range(20):
-    observation = env.reset()
-    for t in range(100):
-        env.render()
-        action = env.action_space.sample()
-        observation, reward, done, info = env.step(action)
-        if done:
-            print("Episode finished after {} timesteps".format(t+1))
-            break
-
-env.close()
-
-# Generate a picture using OpenAI library
-from gym import envs
-from gym.wrappers import Monitor
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-
-env = gym.make('CartPole-v1')
-env = Monitor(env, "./gym-results", force=True)
-
-observation = env.reset()
-for t in range(100):
-    env.render()
-    action = env.action_space.sample()
-    observation, reward, done, info = env.step(action)
-    if done:
-        print("Episode finished after {} timesteps".format(t+1))
-        break
-
-env.close()
-
-# Generate a picture
-fig = plt.figure()
-plt.imshow(env.render(mode='rgb_array'))
-fig.savefig('cartpole.png')
-14/01/23, 00:04:55.894 INFO [test:92] [You]> 
-14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:14:10.492 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:14:10.493 INFO [test:94] [You]> 
-14/01/23, 00:15:14.777 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:15:14.777 DEBUG [util:60] api_version=None data='{"prompt": "Write a python code that generates a txt file counting lines from 0 to 100 and save it in current directory", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:15:16.741 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1281 request_id=619683f3c122998e9f66097417d9778e response_code=200
-14/01/23, 00:15:16.742 INFO [test:103] [ChatGPT]> with open('lines_file.txt', 'w') as f:
-    for i in range(101):
-        f.write(str(i) + '\n')
-14/01/23, 00:15:16.742 INFO [test:94] [You]> 
-14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:15:56.024 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:15:56.025 INFO [test:94] [You]> 
-14/01/23, 00:16:33.074 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:16:33.074 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that removes the file lines_file.txt in the current directory", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:16:35.092 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1495 request_id=5a2cb872aef9506f88322ce0be767b22 response_code=200
-14/01/23, 00:16:35.093 INFO [test:103] [ChatGPT]> import os
-
-if os.path.exists("lines_file.txt"):
-  os.remove("lines_file.txt")
-else:
-  print("The file does not exist")
-14/01/23, 00:16:35.093 INFO [test:94] [You]> 
-14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:19:03.546 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:19:03.546 INFO [test:145] New chat
-14/01/23, 00:19:03.546 INFO [test:94] [You]> 
-14/01/23, 00:20:09.755 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:20:09.755 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that creates a text file in the current directory. Then it appends 5 url of cat pictures and finally the age of earth.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:20:18.328 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=8049 request_id=16a61c72d6edf0e499f88916f66776c1 response_code=200
-14/01/23, 00:20:18.334 INFO [test:103] [ChatGPT]> #create a file
-file = open("cat_pictures.txt","w")
-
-#append 5 urls of cat pictures
-file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
-file.write("https://www.petmd.com/sites/default/files/Acute-Cat-Diarrhea-47066074.jpg\n")
-file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
-file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
-file.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
-
-#append the age of earth
-file.write("4.543 billion years")
-
-#close the file
-file.close()
-14/01/23, 00:20:18.334 INFO [test:94] [You]> 
-14/01/23, 00:20:59.618 INFO [test:149] Chat went wrong
-14/01/23, 00:20:59.618 INFO [test:145] New chat
-14/01/23, 00:20:59.618 INFO [test:94] [You]> 
-14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:25:06.037 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:25:06.038 INFO [test:157] New chat
-14/01/23, 00:25:06.038 INFO [test:94] [You]> 
-14/01/23, 00:25:09.470 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:25:09.470 DEBUG [util:60] api_version=None data='{"prompt": "write a python script that creates a text file in the current directory. Then it appends 5 url of cat pictures and finally the age of earth.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:25:17.144 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=7130 request_id=bf1775d47fa99901dcf453c43b0e4f56 response_code=200
-14/01/23, 00:25:17.149 INFO [test:108] [ChatGPT]> #Create the file
-f = open("cat_pictures.txt","w+")
-
-#Append 5 URLs of cat pictures
-f.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg\n")
-f.write("https://www.catster.com/wp-content/uploads/2017/08/Pixiebob-cat.jpg\n")
-f.write("https://www.catster.com/wp-content/uploads/2017/08/Siamese-cat-2.jpg\n")
-f.write("https://www.catster.com/wp-content/uploads/2017/08/British-shorthair-cat.jpg\n")
-f.write("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-gray-cat-looking-up-surprised.jpg\n")
-
-#Append the age of earth
-f.write("The age of earth is estimated to be around 4.54 billion years")
-
-#Close the file
-f.close()
-14/01/23, 00:25:17.150 INFO [test:94] [You]> 
-14/01/23, 00:25:27.884 INFO [test:161] Chat went wrong
-14/01/23, 00:25:27.885 INFO [test:157] New chat
-14/01/23, 00:25:27.886 INFO [test:94] [You]> 
-14/01/23, 00:28:30.505 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:28:30.506 DEBUG [util:60] api_version=None data='{"prompt": "give me a python code deleting the file cat_pictures.txt", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:28:32.483 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1431 request_id=7fbc618a2e1de3455cda0ce9feaebe7d response_code=200
-14/01/23, 00:28:32.483 INFO [test:108] [ChatGPT]> import os
-os.remove("cat_pictures.txt")
-14/01/23, 00:28:32.483 INFO [test:94] [You]> 
-14/01/23, 00:28:45.263 INFO [test:161] Chat went wrong
-14/01/23, 00:28:45.263 INFO [test:157] New chat
-14/01/23, 00:28:45.263 INFO [test:94] [You]> 
-14/01/23, 00:30:27.037 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:30:27.038 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:30:27.038 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:30:27.039 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:30:27.039 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:30:27.039 INFO [test:157] New chat
-14/01/23, 00:30:27.039 INFO [test:94] [You]> 
-14/01/23, 00:31:30.907 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:31:30.907 DEBUG [util:60] api_version=None data='{"prompt": "write a python script using openai to generate a picture according to a prompt i give", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:31:35.693 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4282 request_id=c4ff0965e00c39852fc6393a2d202361 response_code=200
-14/01/23, 00:31:35.694 INFO [test:108] [ChatGPT]> import gym
-import numpy as np
-from PIL import Image
-
-# Create a new environment
-env = gym.make('CartPole-v1')
-
-# Prompt
-prompt = "A picture of a person standing on a beach, watching the sunset"
-
-# Set the environment to the desired prompt
-env.env.unwrapped.set_prompt(prompt)
-
-# Generate the image
-observation = env.reset()
-img = env.render(mode='rgb_array')
-
-# Save the image
-img = Image.fromarray(img)
-img.save('sunset_beach.png')
-14/01/23, 00:31:35.695 INFO [test:94] [You]> 
-14/01/23, 00:33:42.094 INFO [test:159] Chat went well
-14/01/23, 00:33:42.095 INFO [test:157] New chat
-14/01/23, 00:33:42.095 INFO [test:94] [You]> 
-14/01/23, 00:35:49.405 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:35:49.405 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that generates a picture using ai. The picture needs to corrrespond a description on a prompt entered by user", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:35:53.394 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3465 request_id=87d14ad542caf4dfcebba4b0d8b9b3b2 response_code=200
-14/01/23, 00:35:53.394 INFO [test:108] [ChatGPT]> #import necessary libraries
-import matplotlib.pyplot as plt
-import numpy as np
-from PIL import Image
-
-#prompt user for a description
-prompt = input("Please enter a description: ")
-
-#generate a picture based on the description
-arr = np.random.randint(255, size=(100,100,3))
-img = Image.fromarray(arr.astype('uint8'), 'RGB')
-
-#display the picture
-plt.imshow(img)
-plt.title(prompt)
-plt.show()
-14/01/23, 00:35:53.394 INFO [test:94] [You]> 
-14/01/23, 00:36:18.181 INFO [test:159] Chat went well
-14/01/23, 00:36:18.182 INFO [test:157] New chat
-14/01/23, 00:36:18.187 INFO [test:94] [You]> 
-14/01/23, 00:36:50.568 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:36:50.568 DEBUG [util:60] api_version=None data='{"prompt": "what python library can i use to generate a picture from a prompt using ai", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:36:52.217 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1460 request_id=227df766c183624129a78ceb2c701eb1 response_code=200
-14/01/23, 00:36:52.218 INFO [test:108] [ChatGPT]> You can use the Python library GPT-3 to generate a picture from a prompt using AI. GPT-3 is a natural language processing model developed by OpenAI that uses deep learning to generate text. It can also be used to generate images from text prompts.
-14/01/23, 00:36:52.218 INFO [test:94] [You]> 
-14/01/23, 00:37:20.443 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:37:20.443 DEBUG [util:60] api_version=None data='{"prompt": "-what python library can i use to generate a picture from a prompt using ai\\n-You can use the Python library GPT-3 to generate a picture from a prompt using AI. GPT-3 is a natural language processing model developed by OpenAI that uses deep learning to generate text. It can also be used to generate images from text prompts.\\n-Give me a code example\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:37:23.990 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3374 request_id=c05656cf54d4f2f58d19341b8cc4794c response_code=200
-14/01/23, 00:37:23.990 INFO [test:118] [ChatGPT]> Here is an example of how to use GPT-3 to generate an image from a prompt:
-
-import gpt_3
-
-# Create a GPT-3 model
-model = gpt_3.GPT(engine="davinci")
-
-# Prompt the model with a text prompt
-prompt = "Draw a picture of a cat"
-
-# Generate an image
-image = model.generate(prompt)
-
-# Save the image
-image.save("cat_picture.png")
-14/01/23, 00:37:23.990 INFO [test:94] [You]> 
-14/01/23, 00:51:33.153 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:51:33.154 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:51:33.154 INFO [test:175] New chat
-14/01/23, 00:51:33.154 INFO [test:176] Choose mode (Chat - Image)
-14/01/23, 00:51:39.191 INFO [test:94] [You]> 
-14/01/23, 00:52:08.277 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 00:52:08.283 DEBUG [util:60] api_version=None data='{"prompt": "A big frog running on the roof of a bus", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 00:52:14.525 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5747 request_id=e260a6a651c691910300b073c9cebfe9 response_code=200
-14/01/23, 00:52:14.526 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-o3hr6MLCRtxJGiMiFdgM9XLm.png?st=2023-01-13T22%3A52%3A14Z&se=2023-01-14T00%3A52%3A14Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T18%3A25%3A32Z&ske=2023-01-14T18%3A25%3A32Z&sks=b&skv=2021-08-06&sig=E13fEfPTS6vOzoNSp31Bc/v9SMuM5V8KnE9OX0EajZ4%3D
-14/01/23, 00:52:14.526 INFO [test:179] image went well
-14/01/23, 00:52:14.526 INFO [test:175] New chat
-14/01/23, 00:52:14.526 INFO [test:176] Choose mode (Chat - Image)
-14/01/23, 00:53:08.126 INFO [test:94] [You]> 
-14/01/23, 00:53:48.108 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 00:53:48.108 DEBUG [util:60] api_version=None data='{"prompt": "write a python code that saves an image from its url", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 00:53:52.550 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3907 request_id=ecfe7b825254099958f7d0dd44505ce3 response_code=200
-14/01/23, 00:53:52.552 INFO [test:119] [ChatGPT]> import urllib.request
-
-url = 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-
-urllib.request.urlretrieve(url, 'image.jpg')
-14/01/23, 00:53:52.552 INFO [test:94] [You]> 
-14/01/23, 00:57:56.882 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 00:57:56.884 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 00:57:56.885 INFO [test:180] New chat
-14/01/23, 00:57:56.885 INFO [test:181] Choose mode (Chat - Image)
-14/01/23, 00:58:11.230 INFO [test:94] [You]> 
-14/01/23, 00:58:56.275 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 00:58:56.275 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a ring doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 00:59:03.415 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6676 request_id=936f8d464011bc391dc840c756cdaf81 response_code=200
-14/01/23, 00:59:03.415 ERROR [test:103] expected str, bytes or os.PathLike object, not ConfigJSONScalar
-14/01/23, 00:59:03.420 INFO [test:186] image went wrong
-14/01/23, 00:59:03.420 INFO [test:180] New chat
-14/01/23, 00:59:03.420 INFO [test:181] Choose mode (Chat - Image)
-14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 01:00:24.613 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 01:00:24.614 INFO [test:182] New chat
-14/01/23, 01:00:24.614 INFO [test:183] Choose mode (Chat - Image)
-14/01/23, 01:00:28.790 INFO [test:94] [You]> 
-14/01/23, 01:00:31.674 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 01:00:31.675 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a ring doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 01:00:38.069 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5907 request_id=75450551eded266461cffab83b979d9b response_code=200
-14/01/23, 01:00:39.819 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-D9ZVNWfR5Apa2Rp9dxEqLzWB.png?st=2023-01-13T23%3A00%3A38Z&se=2023-01-14T01%3A00%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T19%3A55%3A03Z&ske=2023-01-14T19%3A55%3A03Z&sks=b&skv=2021-08-06&sig=YMfsEWlW/Rt17kLjkOKEMNzjForuWrRrZk5CpwkEQDA%3D
-14/01/23, 01:00:39.819 INFO [test:186] image went well
-14/01/23, 01:00:39.819 INFO [test:182] New chat
-14/01/23, 01:00:39.819 INFO [test:183] Choose mode (Chat - Image)
-14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 01:01:22.551 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 01:01:22.552 INFO [test:182] New chat
-14/01/23, 01:01:22.552 INFO [test:183] Choose mode (Chat - Image)
-14/01/23, 01:01:27.213 INFO [test:94] [You]> 
-14/01/23, 01:01:35.765 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 01:01:35.766 DEBUG [util:60] api_version=None data='{"prompt": "A crt tv displaying a cat doing pushups", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 01:01:41.990 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5741 request_id=558a88edeba55e2f2e91b41016897cf5 response_code=200
-14/01/23, 01:01:44.015 INFO [test:101] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-uRL7cV3eY43CT9tGRWDIk60x.png?st=2023-01-13T23%3A01%3A41Z&se=2023-01-14T01%3A01%3A41Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-13T19%3A09%3A57Z&ske=2023-01-14T19%3A09%3A57Z&sks=b&skv=2021-08-06&sig=S6FvsONn2osQdRF0CTORE9MnXV9pix61q64zdCmphzQ%3D
-14/01/23, 01:01:44.016 INFO [test:186] image went well
-14/01/23, 01:01:44.016 INFO [test:182] New chat
-14/01/23, 01:01:44.016 INFO [test:183] Choose mode (Chat - Image)
-14/01/23, 01:03:06.514 DEBUG [test:49] Verification du dossier 'input' 
-14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'output' 
-14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'error' 
-14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'done' 
-14/01/23, 01:03:06.515 DEBUG [test:49] Verification du dossier 'contracts' 
-14/01/23, 01:03:06.515 INFO [test:182] New chat
-14/01/23, 01:03:06.515 INFO [test:183] Choose mode (Chat - Image)
-14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:22:45.317 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:26:10.085 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:26:10.086 INFO [test:191] [Recording]>
-14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:30:09.607 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:30:09.608 INFO [test:191] [Recording]>
-14/01/23, 19:30:38.183 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:30:38.183 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:30:38.185 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:30:38.185 INFO [test:191] [Recording]>
-14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:30:53.473 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:30:53.474 INFO [test:191] [Recording]>
-14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:31:17.373 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:31:17.374 INFO [test:191] [Recording]>
-14/01/23, 19:31:33.378 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:31:33.383 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:31:33.384 INFO [test:191] [Recording]>
-14/01/23, 19:31:58.889 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:31:58.889 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:31:58.890 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:31:58.890 INFO [test:191] [Recording]>
-14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:39:29.953 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:39:29.954 INFO [test:191] [Recording]>
-14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:40:39.566 DEBUG [test:52] Verification du dossier 'contracts' 
-14/01/23, 19:40:39.567 INFO [test:191] [Recording]>
-14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:48:30.625 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:48:30.626 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:48:48.641 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:48:48.642 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:48:48.642 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 19:48:48.642 INFO [test:191] [Recording]>
-14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:49:36.490 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:49:36.491 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 19:49:36.491 INFO [test:191] [Recording]>
-14/01/23, 19:50:12.172 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 19:50:12.173 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 19:50:12.174 INFO [test:218] New chat
-14/01/23, 19:50:12.174 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 19:50:16.745 INFO [test:97] [You]> 
-14/01/23, 19:51:09.961 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:51:09.962 DEBUG [util:60] api_version=None data='{"prompt": "Comment calculer les effectifs en CDD pour des \\u00e9lections proffessionelles ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:51:20.717 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=10239 request_id=5b1e153533c229c1574248ae83603da2 response_code=200
-14/01/23, 19:51:20.724 INFO [test:122] [ChatGPT]> Pour calculer les effectifs en CDD pour des élections professionnelles, vous devez d'abord déterminer le nombre de personnes qui seront éligibles à voter. Vous devez ensuite diviser ce nombre par le nombre de postes à pourvoir. Ensuite, vous devez déterminer le nombre de candidats qui se présentent à l'élection et diviser ce nombre par le nombre de postes à pourvoir. Enfin, vous devez multiplier le résultat par le nombre de personnes éligibles à voter pour obtenir le nombre d'effectifs en CDD pour l'élection.
-14/01/23, 19:51:20.724 INFO [test:97] [You]> 
-14/01/23, 19:53:51.302 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:53:51.302 DEBUG [util:60] api_version=None data='{"prompt": "-Comment calculer les effectifs en CDD pour des \\u00e9lections proffessionelles ?\\n-Pour calculer les effectifs en CDD pour des \\u00e9lections professionnelles, vous devez d\'abord d\\u00e9terminer le nombre de personnes qui seront \\u00e9ligibles \\u00e0 voter. Vous devez ensuite diviser ce nombre par le nombre de postes \\u00e0 pourvoir. Ensuite, vous devez d\\u00e9terminer le nombre de candidats qui se pr\\u00e9sentent \\u00e0 l\'\\u00e9lection et diviser ce nombre par le nombre de postes \\u00e0 pourvoir. Enfin, vous devez multiplier le r\\u00e9sultat par le nombre de personnes \\u00e9ligibles \\u00e0 voter pour obtenir le nombre d\'effectifs en CDD pour l\'\\u00e9lection.\\n-Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:53:57.586 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=5809 request_id=cf48e5112926367764898f22470aee3f response_code=200
-14/01/23, 19:53:57.587 INFO [test:132] [ChatGPT]> Pour prendre en compte les CDD pour le calcul des effectifs pour les élections professionnelles, vous devez d'abord déterminer le nombre de personnes éligibles à voter. Ensuite, vous devez déterminer le nombre de candidats qui se présentent à l'élection. Ensuite, vous devez ajouter le nombre de CDD à ce nombre de candidats. Enfin, vous devez diviser le nombre total de candidats par le nombre de postes à pourvoir et multiplier le résultat par le nombre de personnes éligibles à voter pour obtenir le nombre d'effectifs en CDD pour l'élection.
-14/01/23, 19:53:57.587 INFO [test:97] [You]> 
-14/01/23, 19:54:21.244 INFO [test:224] chat went well
-14/01/23, 19:54:21.244 INFO [test:218] New chat
-14/01/23, 19:54:21.244 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 19:54:24.614 INFO [test:97] [You]> 
-14/01/23, 19:54:28.067 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:54:28.067 DEBUG [util:60] api_version=None data='{"prompt": "Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:54:32.486 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4223 request_id=4100f5013f1a8a508f14d7bf3a51a7b2 response_code=200
-14/01/23, 19:54:32.486 INFO [test:122] [ChatGPT]> Les contrats à durée déterminée (CDD) doivent être pris en compte pour le calcul des effectifs pour les élections professionnelles. Les salariés en CDD doivent être considérés comme des salariés à temps plein et leur nombre doit être inclus dans le total des effectifs. Les salariés en CDD doivent également bénéficier des mêmes droits que les salariés à temps plein, notamment en ce qui concerne le droit de vote et l'accès aux postes électifs.
-14/01/23, 19:54:32.486 INFO [test:97] [You]> 
-14/01/23, 19:56:24.927 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:56:24.928 DEBUG [util:60] api_version=None data='{"prompt": "-Comment prendre en compte les CDD pour le calcul des effectifs pour les \\u00e9lections proffessionelles ?\\n-Les contrats \\u00e0 dur\\u00e9e d\\u00e9termin\\u00e9e (CDD) doivent \\u00eatre pris en compte pour le calcul des effectifs pour les \\u00e9lections professionnelles. Les salari\\u00e9s en CDD doivent \\u00eatre consid\\u00e9r\\u00e9s comme des salari\\u00e9s \\u00e0 temps plein et leur nombre doit \\u00eatre inclus dans le total des effectifs. Les salari\\u00e9s en CDD doivent \\u00e9galement b\\u00e9n\\u00e9ficier des m\\u00eames droits que les salari\\u00e9s \\u00e0 temps plein, notamment en ce qui concerne le droit de vote et l\'acc\\u00e8s aux postes \\u00e9lectifs.\\n-Combien de temps maximum dure un CDD ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:56:27.653 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2247 request_id=0c980bd23df7e5683b446ff75a6fb691 response_code=200
-14/01/23, 19:56:27.654 INFO [test:132] [ChatGPT]> Un contrat à durée déterminée (CDD) peut durer jusqu'à 18 mois maximum. Le contrat peut être renouvelé pour une durée supplémentaire d'un an, mais le total ne doit pas dépasser les 18 mois.
-14/01/23, 19:56:27.654 INFO [test:97] [You]> 
-14/01/23, 19:58:26.136 INFO [test:224] chat went well
-14/01/23, 19:58:26.136 INFO [test:218] New chat
-14/01/23, 19:58:26.141 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 19:58:29.867 INFO [test:97] [You]> 
-14/01/23, 19:58:37.036 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:58:37.036 DEBUG [util:60] api_version=None data='{"prompt": "Pourquoi les collants se trouent ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:58:42.325 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4821 request_id=831e73ea8d87b4117a54c49c0ca2453e response_code=200
-14/01/23, 19:58:42.326 INFO [test:122] [ChatGPT]> Les collants peuvent se trouer à cause de frottements répétés, de mauvais entretien (lavage à l'eau trop chaude, séchage à haute température, etc.), ou d'une mauvaise qualité de tissu.
-14/01/23, 19:58:42.331 INFO [test:97] [You]> 
-14/01/23, 19:59:22.755 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 19:59:22.756 DEBUG [util:60] api_version=None data='{"prompt": "-Pourquoi les collants se trouent ?\\n-Les collants peuvent se trouer \\u00e0 cause de frottements r\\u00e9p\\u00e9t\\u00e9s, de mauvais entretien (lavage \\u00e0 l\'eau trop chaude, s\\u00e9chage \\u00e0 haute temp\\u00e9rature, etc.), ou d\'une mauvaise qualit\\u00e9 de tissu.\\n-Cela peut-il aussi \\u00eatre \\u00e0 cause de mon chat truffe ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 19:59:25.904 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2967 request_id=8d577113019a60eacf48b95325c04556 response_code=200
-14/01/23, 19:59:25.905 INFO [test:132] [ChatGPT]> Oui, cela pourrait être à cause de votre chat truffe. Les griffes des chats peuvent facilement entailler des collants et les rendre plus susceptibles de trouer.
-14/01/23, 19:59:25.905 INFO [test:97] [You]> 
-14/01/23, 19:59:55.135 INFO [test:224] chat went well
-14/01/23, 19:59:55.135 INFO [test:218] New chat
-14/01/23, 19:59:55.135 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 19:59:59.157 INFO [test:97] [You]> 
-14/01/23, 20:00:59.629 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 20:00:59.629 DEBUG [util:60] api_version=None data='{"prompt": "Un champ de tournesols avec le Puy de D\\u00f4me et un chat qui danse", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 20:01:06.021 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5911 request_id=c46556daf1150a88aabfcb9a0cdf0b96 response_code=200
-14/01/23, 20:01:07.775 INFO [test:104] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-MNThWDcTDmt7s1JmBxMkgMD4.png?st=2023-01-14T18%3A01%3A05Z&se=2023-01-14T20%3A01%3A05Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T17%3A44%3A13Z&ske=2023-01-15T17%3A44%3A13Z&sks=b&skv=2021-08-06&sig=qlgeQsvSbMT4Wxrjb6S6UnQVY/Qc7h%2B0jBz7KylRrRQ%3D
-14/01/23, 20:01:07.776 INFO [test:224] image went well
-14/01/23, 20:01:07.776 INFO [test:218] New chat
-14/01/23, 20:01:07.776 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:02:54.204 INFO [test:97] [You]> 
-14/01/23, 20:03:09.503 INFO [test:224] quentin qui fait l'amour à léa went well
-14/01/23, 20:03:09.503 INFO [test:218] New chat
-14/01/23, 20:03:09.503 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:03:14.489 INFO [test:97] [You]> 
-14/01/23, 20:03:17.173 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 20:03:17.173 DEBUG [util:60] api_version=None data='{"prompt": "quentin qui fait l\'amour \\u00e0 l\\u00e9a", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 20:03:21.133 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=429 request_id=3eb9f63c08e703212cf267ed8afdd190 response_code=400
-14/01/23, 20:03:21.133 INFO [util:67] error_code=None error_message='Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
-14/01/23, 20:03:21.134 ERROR [test:106] Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system.
-14/01/23, 20:03:21.134 INFO [test:226] image went wrong
-14/01/23, 20:03:21.134 INFO [test:218] New chat
-14/01/23, 20:03:21.134 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:03:40.250 INFO [test:97] [You]> 
-14/01/23, 20:03:57.118 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 20:03:57.119 DEBUG [util:60] api_version=None data='{"prompt": "quentin qui fait un c\\u00e2lin \\u00e0 l\\u00e9a", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 20:04:02.917 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5664 request_id=951788af9bc9a1b649cf5c8ae8c9772e response_code=200
-14/01/23, 20:04:05.087 INFO [test:104] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-DjNFt10fb2UvUtkBYaJ1eadY.png?st=2023-01-14T18%3A04%3A02Z&se=2023-01-14T20%3A04%3A02Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T16%3A52%3A26Z&ske=2023-01-15T16%3A52%3A26Z&sks=b&skv=2021-08-06&sig=wTdru8dQX1jW0mg7yPnYFEjm/ak2TR0kGa/g4w3GbSg%3D
-14/01/23, 20:04:05.087 INFO [test:224] image went well
-14/01/23, 20:04:05.087 INFO [test:218] New chat
-14/01/23, 20:04:05.087 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:04:43.542 INFO [test:97] [You]> 
-14/01/23, 20:05:47.074 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:05:47.074 DEBUG [util:60] api_version=None data='{"prompt": "Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:05:55.446 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=7853 request_id=6e1c52271a34b2cf70114071032798f8 response_code=200
-14/01/23, 20:05:55.446 INFO [test:122] [ChatGPT]> Le calcul des effectifs pour les élections professionnelles comprend le nombre total de salariés à temps plein et à temps partiel, y compris les salariés en CDD. Le nombre total d'effectifs est calculé en additionnant le nombre de salariés à temps plein, le nombre de salariés à temps partiel et le nombre de salariés en CDD.
-14/01/23, 20:05:55.446 INFO [test:97] [You]> 
-14/01/23, 20:07:13.957 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:07:13.957 DEBUG [util:60] api_version=None data='{"prompt": "-Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?\\n-Le calcul des effectifs pour les \\u00e9lections professionnelles comprend le nombre total de salari\\u00e9s \\u00e0 temps plein et \\u00e0 temps partiel, y compris les salari\\u00e9s en CDD. Le nombre total d\'effectifs est calcul\\u00e9 en additionnant le nombre de salari\\u00e9s \\u00e0 temps plein, le nombre de salari\\u00e9s \\u00e0 temps partiel et le nombre de salari\\u00e9s en CDD.\\n-Non. Je parle du nombre effectifs pouvant \\u00eatre d\\u00e9cimal\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:07:16.363 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1882 request_id=e900de9899ed2cda639180108db0601a response_code=200
-14/01/23, 20:07:16.363 INFO [test:132] [ChatGPT]> Non, le nombre effectif pour les élections professionnelles doit être un nombre entier.
-14/01/23, 20:07:16.368 INFO [test:97] [You]> 
-14/01/23, 20:08:53.679 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:08:53.679 DEBUG [util:60] api_version=None data='{"prompt": "-Quel est le calcul des effectifs pour les \\u00e9lections professionnelles comprenant des CDD ?\\n-Le calcul des effectifs pour les \\u00e9lections professionnelles comprend le nombre total de salari\\u00e9s \\u00e0 temps plein et \\u00e0 temps partiel, y compris les salari\\u00e9s en CDD. Le nombre total d\'effectifs est calcul\\u00e9 en additionnant le nombre de salari\\u00e9s \\u00e0 temps plein, le nombre de salari\\u00e9s \\u00e0 temps partiel et le nombre de salari\\u00e9s en CDD.\\n-Non. Je parle du nombre effectifs pouvant \\u00eatre d\\u00e9cimal\\n-Non, le nombre effectif pour les \\u00e9lections professionnelles doit \\u00eatre un nombre entier.\\n-Quel est le calcul des effectifs concernant les contrats en CDD ?\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:08:58.129 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3850 request_id=58cf0176f9111e3c45b5f1ac317a0d81 response_code=200
-14/01/23, 20:08:58.130 INFO [test:132] [ChatGPT]> Le calcul des effectifs concernant les contrats en CDD comprend le nombre total de salariés à temps plein et à temps partiel, y compris les salariés en CDD. Le nombre total d'effectifs est calculé en additionnant le nombre de salariés à temps plein, le nombre de salariés à temps partiel et le nombre de salariés en CDD.
-14/01/23, 20:08:58.130 INFO [test:97] [You]> 
-14/01/23, 20:09:19.233 INFO [test:224] chat went well
-14/01/23, 20:09:19.234 INFO [test:218] New chat
-14/01/23, 20:09:19.234 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:09:26.562 INFO [test:97] [You]> 
-14/01/23, 20:09:28.528 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:09:28.528 DEBUG [util:60] api_version=None data='{"prompt": "Quel est le calcul des effectifs concernant les contrats en CDD ?", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:09:31.877 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3161 request_id=3da2d060498764aaf05ed759d378e4bd response_code=200
-14/01/23, 20:09:31.877 INFO [test:122] [ChatGPT]> Le calcul des effectifs pour les contrats en CDD consiste à compter le nombre de personnes qui sont en CDD à un moment donné. Cela peut être fait en comptant le nombre de contrats en cours et en ajoutant le nombre de nouveaux contrats qui ont été signés au cours d'une période donnée.
-14/01/23, 20:09:31.882 INFO [test:97] [You]> 
-14/01/23, 20:10:12.394 INFO [test:224] chat went well
-14/01/23, 20:10:12.394 INFO [test:218] New chat
-14/01/23, 20:10:12.394 INFO [test:219] Choose mode (Chat - Image)
-14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 20:15:48.586 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 20:15:48.587 INFO [test:191] [Recording]>
-14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'input' 
-14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'output' 
-14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'error' 
-14/01/23, 20:16:52.493 DEBUG [test:52] Verification du dossier 'done' 
-14/01/23, 20:16:52.494 DEBUG [test:52] Verification du dossier 'temp' 
-14/01/23, 20:16:52.494 INFO [test:191] [Recording]>
-14/01/23, 20:23:27.823 DEBUG [test:53] Verification du dossier 'input' 
-14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'output' 
-14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'error' 
-14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'done' 
-14/01/23, 20:23:27.828 DEBUG [test:53] Verification du dossier 'temp' 
-14/01/23, 20:23:27.829 INFO [test:220] New chat
-14/01/23, 20:23:27.829 INFO [test:221] Choose mode (Chat - Image)
-14/01/23, 20:23:36.496 INFO [test:98] [You]> 
-14/01/23, 20:23:36.496 INFO [test:193] [Recording 15s]>
-14/01/23, 20:23:51.506 INFO [test:196] Recorded
-14/01/23, 20:23:56.450 INFO [test:100] [You]> Un chien qui fait du houlahoup sur une montagne pendant la nuit est toilée.
-14/01/23, 20:23:56.465 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
-14/01/23, 20:23:56.465 DEBUG [util:60] api_version=None data='{"prompt": "Un chien qui fait du houlahoup sur une montagne pendant la nuit est toil\\u00e9e.", "n": 1, "size": "1024x1024"}' message='Post details'
-14/01/23, 20:24:02.886 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5931 request_id=20c08d1f698222e80eb1f2c3ca7e442c response_code=200
-14/01/23, 20:24:04.847 INFO [test:106] [ChatGPT]> https://oaidalleapiprodscus.blob.core.windows.net/private/org-XCSB6UDu3EPn6dIMGhBWFPhx/user-TufoiMTzK6pkRXfkapgodheB/img-65G22WnBUrtslXNo467a9fTw.png?st=2023-01-14T18%3A24%3A02Z&se=2023-01-14T20%3A24%3A02Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-01-14T16%3A39%3A43Z&ske=2023-01-15T16%3A39%3A43Z&sks=b&skv=2021-08-06&sig=cKSPjVrrpJWvlU%2BqivJF04%2BOq1b/sxf69kR9aAJXe3c%3D
-14/01/23, 20:24:04.847 INFO [test:226] image went well
-14/01/23, 20:24:04.847 INFO [test:220] New chat
-14/01/23, 20:24:04.847 INFO [test:221] Choose mode (Chat - Image)
-14/01/23, 20:24:34.442 INFO [test:98] [You]> 
-14/01/23, 20:24:34.442 INFO [test:193] [Recording 15s]>
-14/01/23, 20:24:49.447 INFO [test:196] Recorded
-14/01/23, 20:24:54.637 INFO [test:100] [You]> que penses-tu du fait que ma copine se fasse du bien et lise en même temps pendant que moi je suis en train de coder et en même temps on écoute de la musique
-14/01/23, 20:24:54.637 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:24:54.642 DEBUG [util:60] api_version=None data='{"prompt": "que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:24:56.909 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2077 request_id=8a86917020db72929a63a3ac17f788a9 response_code=200
-14/01/23, 20:24:56.910 INFO [test:124] [ChatGPT]> 
-
-Je pense que c'est une excellente façon de passer du temps ensemble et de profiter de vos intérêts respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en même temps.
-14/01/23, 20:24:56.910 INFO [test:98] [You]> 
-14/01/23, 20:24:56.910 INFO [test:193] [Recording 15s]>
-14/01/23, 20:25:11.924 INFO [test:196] Recorded
-14/01/23, 20:25:17.766 INFO [test:100] [You]> Je pense que si tu es une excellente façon de passer du temps ensemble et de profiter de vos intérêts et respectifs, cela m'a eu permis de vous concentrer sur ce que vous êtes bon, partagez quelque chose en même temps. Je vous remportage quelque chose en même temps.
-14/01/23, 20:25:17.766 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:25:17.766 DEBUG [util:60] api_version=None data='{"prompt": "-que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique\\n-\\n\\nJe pense que c\'est une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en m\\u00eame temps.\\n-Je pense que si tu es une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats et respectifs, cela m\'a eu permis de vous concentrer sur ce que vous \\u00eates bon, partagez quelque chose en m\\u00eame temps. Je vous remportage quelque chose en m\\u00eame temps.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:25:20.111 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2159 request_id=2392b1667561dc75b9f9c17c3c2c135b response_code=200
-14/01/23, 20:25:20.111 INFO [test:134] [ChatGPT]> C'est une excellente idée! Cela vous permet de partager des moments et des activités tout en profitant de vos intérêts respectifs. Vous pourrez ainsi profiter de votre temps ensemble et vous enrichir mutuellement.
-14/01/23, 20:25:20.111 INFO [test:98] [You]> 
-14/01/23, 20:25:20.111 INFO [test:193] [Recording 15s]>
-14/01/23, 20:25:35.118 INFO [test:196] Recorded
-14/01/23, 20:25:39.966 INFO [test:100] [You]> Elle pense que ce n'est pas une bonne idée et que ces activités-là sont trop différentes pour qu'on puisse...
-14/01/23, 20:25:39.967 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:25:39.967 DEBUG [util:60] api_version=None data='{"prompt": "-que penses-tu du fait que ma copine se fasse du bien et lise en m\\u00eame temps pendant que moi je suis en train de coder et en m\\u00eame temps on \\u00e9coute de la musique\\n-\\n\\nJe pense que c\'est une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats respectifs. Cela vous permet de vous concentrer sur ce que vous aimez et de partager quelque chose en m\\u00eame temps.\\n-Je pense que si tu es une excellente fa\\u00e7on de passer du temps ensemble et de profiter de vos int\\u00e9r\\u00eats et respectifs, cela m\'a eu permis de vous concentrer sur ce que vous \\u00eates bon, partagez quelque chose en m\\u00eame temps. Je vous remportage quelque chose en m\\u00eame temps.\\n-C\'est une excellente id\\u00e9e! Cela vous permet de partager des moments et des activit\\u00e9s tout en profitant de vos int\\u00e9r\\u00eats respectifs. Vous pourrez ainsi profiter de votre temps ensemble et vous enrichir mutuellement.\\n-Elle pense que ce n\'est pas une bonne id\\u00e9e et que ces activit\\u00e9s-l\\u00e0 sont trop diff\\u00e9rentes pour qu\'on puisse...\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:25:42.774 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2621 request_id=fb1c9fbc1962c42c535f6e858ab67054 response_code=200
-14/01/23, 20:25:42.775 INFO [test:134] [ChatGPT]> Je pense que c'est une excellente façon de passer du temps ensemble et de profiter de vos intérêts respectifs. Vous pouvez vous concentrer sur ce que vous aimez et partager quelque chose en même temps. Cela peut vous permettre de vous enrichir mutuellement et de vous rapprocher.
-14/01/23, 20:25:42.775 INFO [test:98] [You]> 
-14/01/23, 20:25:42.775 INFO [test:193] [Recording 15s]>
-14/01/23, 20:27:26.571 DEBUG [test:53] Verification du dossier 'input' 
-14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'output' 
-14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'error' 
-14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'done' 
-14/01/23, 20:27:26.572 DEBUG [test:53] Verification du dossier 'temp' 
-14/01/23, 20:27:26.572 INFO [test:222] New chat
-14/01/23, 20:27:26.572 INFO [test:223] Choose mode (Chat - Image)
-14/01/23, 20:27:40.208 INFO [test:98] [You]> 
-14/01/23, 20:27:40.208 INFO [test:193] Press enter to start recording
-14/01/23, 20:27:44.314 INFO [test:195] [Recording 15s]>
-14/01/23, 20:27:59.324 INFO [test:198] Recorded
-14/01/23, 20:28:04.397 INFO [test:100] [You]> Écrime-moi un code Python qui permet de générer un file texte qui compte le nombre de lignes pendant son ligne.
-14/01/23, 20:28:04.412 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:28:04.412 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:28:08.690 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3793 request_id=db997a37ff0b40332804bca4efce460e response_code=200
-14/01/23, 20:28:08.691 INFO [test:124] [ChatGPT]> # Ouverture du fichier
-f = open("compteur.txt", "w")
-
-# Initialisation de la variable de comptage
-lignes = 0
-
-# Boucle sur chaque ligne du fichier
-for ligne in f:
-    # Incrémentation du compteur
-    lignes += 1
-    # Écriture de la ligne dans le fichier
-    f.write(str(lignes) + " " + ligne)
-
-# Fermeture du fichier
-f.close()
-14/01/23, 20:28:08.691 INFO [test:98] [You]> 
-14/01/23, 20:28:08.691 INFO [test:193] Press enter to start recording
-14/01/23, 20:28:26.291 INFO [test:195] [Recording 15s]>
-14/01/23, 20:28:41.302 INFO [test:198] Recorded
-14/01/23, 20:28:45.529 INFO [test:100] [You]> Execute code.
-14/01/23, 20:28:45.530 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:28:45.530 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.\\n-# Ouverture du fichier\\nf = open(\\"compteur.txt\\", \\"w\\")\\n\\n# Initialisation de la variable de comptage\\nlignes = 0\\n\\n# Boucle sur chaque ligne du fichier\\nfor ligne in f:\\n    # Incr\\u00e9mentation du compteur\\n    lignes += 1\\n    # \\u00c9criture de la ligne dans le fichier\\n    f.write(str(lignes) + \\" \\" + ligne)\\n\\n# Fermeture du fichier\\nf.close()\\n-Execute code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:28:46.694 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=976 request_id=5179e27dc19c1ef17d469ea9edebbe4c response_code=200
-14/01/23, 20:28:46.695 INFO [test:134] [ChatGPT]> Ouvrez le fichier "compteur.txt" pour voir le résultat.
-14/01/23, 20:28:46.699 INFO [test:98] [You]> 
-14/01/23, 20:28:46.699 INFO [test:193] Press enter to start recording
-14/01/23, 20:28:46.699 INFO [test:195] [Recording 15s]>
-14/01/23, 20:29:01.709 INFO [test:198] Recorded
-14/01/23, 20:29:05.866 INFO [test:100] [You]> nd
-14/01/23, 20:29:05.866 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:29:05.866 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crime-moi un code Python qui permet de g\\u00e9n\\u00e9rer un file texte qui compte le nombre de lignes pendant son ligne.\\n-# Ouverture du fichier\\nf = open(\\"compteur.txt\\", \\"w\\")\\n\\n# Initialisation de la variable de comptage\\nlignes = 0\\n\\n# Boucle sur chaque ligne du fichier\\nfor ligne in f:\\n    # Incr\\u00e9mentation du compteur\\n    lignes += 1\\n    # \\u00c9criture de la ligne dans le fichier\\n    f.write(str(lignes) + \\" \\" + ligne)\\n\\n# Fermeture du fichier\\nf.close()\\n-Execute code.\\n-Ouvrez le fichier \\"compteur.txt\\" pour voir le r\\u00e9sultat.\\n-nd\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:29:07.077 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1011 request_id=8fc73b2fabd7995d687fd9c84d05e4ff response_code=200
-14/01/23, 20:29:07.078 INFO [test:134] [ChatGPT]> Verifiez que le fichier contient bien le nombre de lignes que vous avez entrées.
-14/01/23, 20:29:07.082 INFO [test:98] [You]> 
-14/01/23, 20:29:07.083 INFO [test:193] Press enter to start recording
-14/01/23, 20:31:55.904 DEBUG [test:53] Verification du dossier 'input' 
-14/01/23, 20:31:55.905 DEBUG [test:53] Verification du dossier 'output' 
-14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'error' 
-14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'done' 
-14/01/23, 20:31:55.909 DEBUG [test:53] Verification du dossier 'temp' 
-14/01/23, 20:31:55.910 INFO [test:221] New chat
-14/01/23, 20:31:55.910 INFO [test:222] Choose mode (Chat - Image)
-14/01/23, 20:32:01.725 INFO [test:98] [You]> 
-14/01/23, 20:32:01.725 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:32:06.668 INFO [test:194] [Recording 20]>
-14/01/23, 20:32:26.696 INFO [test:197] Recorded
-14/01/23, 20:32:32.259 INFO [test:100] [You]> Écrit-moi un code Python qui génère un fichier texte, ça peut l'en léa.txt et comptant le nombre de lignes pendant sans lignes.
-14/01/23, 20:32:32.274 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:32:32.275 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:32:39.775 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=6969 request_id=660ebefc6eabfbf594fae19a3045ac9d response_code=200
-14/01/23, 20:32:39.776 INFO [test:124] [ChatGPT]> # Ouverture du fichier
-fichier = open("lea.txt", "w")
-
-# Initialisation du compteur
-compteur = 0
-
-# Boucle qui écrit les lignes dans le fichier
-while compteur < 10:
-    fichier.write("Ligne " + str(compteur + 1) + "\n")
-    compteur += 1
-
-# Fermeture du fichier
-fichier.close()
-14/01/23, 20:32:39.776 INFO [test:98] [You]> 
-14/01/23, 20:32:39.776 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:32:53.586 INFO [test:194] [Recording 5]>
-14/01/23, 20:32:58.602 INFO [test:197] Recorded
-14/01/23, 20:33:02.890 INFO [test:100] [You]> Execute, cut.
-14/01/23, 20:33:02.890 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:33:02.890 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:33:04.160 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1079 request_id=5fa742262ca022c7f2d909b1339d01c9 response_code=200
-14/01/23, 20:33:04.161 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
-14/01/23, 20:33:04.161 INFO [test:98] [You]> 
-14/01/23, 20:33:04.161 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:33:21.187 INFO [test:194] [Recording 5]>
-14/01/23, 20:33:26.210 INFO [test:197] Recorded
-14/01/23, 20:33:30.392 INFO [test:100] [You]> réécris-moi le code.
-14/01/23, 20:33:30.392 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:33:30.392 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:33:33.696 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3143 request_id=3e8f352b1abe3dd828d5392e4946e89a response_code=200
-14/01/23, 20:33:33.696 INFO [test:134] [ChatGPT]> # Ouverture du fichier
-fichier = open("lea.txt", "w")
-
-# Initialisation du compteur
-compteur = 0
-
-# Boucle qui écrit les lignes dans le fichier
-while compteur < 10:
-    fichier.write("Ligne " + str(compteur + 1) + "\n")
-    compteur += 1
-
-# Fermeture du fichier
-fichier.close()
-14/01/23, 20:33:33.696 INFO [test:98] [You]> 
-14/01/23, 20:33:33.696 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:33:38.693 INFO [test:194] [Recording 5]>
-14/01/23, 20:33:43.719 INFO [test:197] Recorded
-14/01/23, 20:33:47.891 INFO [test:100] [You]> Execute God.
-14/01/23, 20:33:47.892 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:33:47.896 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:33:49.019 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=931 request_id=68041d9f18bc0478e97a562219326cdd response_code=200
-14/01/23, 20:33:49.019 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
-14/01/23, 20:33:49.020 INFO [test:98] [You]> 
-14/01/23, 20:33:49.020 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:34:00.742 INFO [test:194] [Recording 5]>
-14/01/23, 20:34:05.753 INFO [test:197] Recorded
-14/01/23, 20:34:10.020 INFO [test:100] [You]> réécris-moi le code.
-14/01/23, 20:34:10.021 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:34:10.021 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:34:13.579 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3395 request_id=fc331017f000d9122774af7b2b8a1b44 response_code=200
-14/01/23, 20:34:13.580 INFO [test:134] [ChatGPT]> # Ouverture du fichier
-fichier = open("lea.txt", "w")
-
-# Initialisation du compteur
-compteur = 0
-
-# Boucle qui écrit les lignes dans le fichier
-while compteur < 10:
-    fichier.write("Ligne " + str(compteur + 1) + "\n")
-    compteur += 1
-
-# Fermeture du fichier
-fichier.close()
-14/01/23, 20:34:13.580 INFO [test:98] [You]> 
-14/01/23, 20:34:13.580 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:34:18.078 INFO [test:194] [Recording 5]>
-14/01/23, 20:34:23.090 INFO [test:197] Recorded
-14/01/23, 20:34:27.411 INFO [test:100] [You]> Execute God.
-14/01/23, 20:34:27.412 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:34:27.412 DEBUG [util:60] api_version=None data='{"prompt": "-\\u00c9crit-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte, \\u00e7a peut l\'en l\\u00e9a.txt et comptant le nombre de lignes pendant sans lignes.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute, cut.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-Oui, le code Python sera ex\\u00e9cut\\u00e9 et le fichier lea.txt sera cr\\u00e9\\u00e9.\\n-r\\u00e9\\u00e9cris-moi le code.\\n-# Ouverture du fichier\\nfichier = open(\\"lea.txt\\", \\"w\\")\\n\\n# Initialisation du compteur\\ncompteur = 0\\n\\n# Boucle qui \\u00e9crit les lignes dans le fichier\\nwhile compteur < 10:\\n    fichier.write(\\"Ligne \\" + str(compteur + 1) + \\"\\\\n\\")\\n    compteur += 1\\n\\n# Fermeture du fichier\\nfichier.close()\\n-Execute God.\\n-", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:34:30.015 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2407 request_id=bd2c82f1f5e6e8604787acd43ed147b4 response_code=200
-14/01/23, 20:34:30.015 INFO [test:134] [ChatGPT]> Oui, le code Python sera exécuté et le fichier lea.txt sera créé.
-14/01/23, 20:34:30.015 INFO [test:98] [You]> 
-14/01/23, 20:34:30.015 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:34:48.948 INFO [test:194] [Recording 5]>
-14/01/23, 20:34:53.961 INFO [test:197] Recorded
-14/01/23, 20:34:58.089 INFO [test:100] [You]> Execute code.
-14/01/23, 20:34:58.089 ERROR [test:118] invalid syntax (<string>, line 1)
-14/01/23, 20:34:58.089 INFO [test:227] chat went well
-14/01/23, 20:34:58.089 INFO [test:221] New chat
-14/01/23, 20:34:58.089 INFO [test:222] Choose mode (Chat - Image)
-14/01/23, 20:35:16.132 INFO [test:98] [You]> 
-14/01/23, 20:35:16.133 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:35:23.017 INFO [test:194] [Recording 20]>
-14/01/23, 20:35:43.037 INFO [test:197] Recorded
-14/01/23, 20:35:48.348 INFO [test:100] [You]> Écrie-moi un code Python qui génère un fichier texte s'appelant laa.txt et qui compte le nombre de lignes pendant le chiffre 100 lignes.
-14/01/23, 20:35:48.348 DEBUG [util:60] message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-14/01/23, 20:35:48.349 DEBUG [util:60] api_version=None data='{"prompt": "\\u00c9crie-moi un code Python qui g\\u00e9n\\u00e8re un fichier texte s\'appelant laa.txt et qui compte le nombre de lignes pendant le chiffre 100 lignes.", "max_tokens": 1024, "n": 1, "stop": null, "temperature": 0.5}' message='Post details'
-14/01/23, 20:35:52.377 DEBUG [util:60] message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=3345 request_id=ffd55d6f03e2c20dc8bb082573b52e2f response_code=200
-14/01/23, 20:35:52.377 INFO [test:124] [ChatGPT]> with open('laa.txt', 'w') as f:
-    for i in range(1, 101):
-        f.write('This is line %d\n' % i)
-14/01/23, 20:35:52.377 INFO [test:98] [You]> 
-14/01/23, 20:35:52.377 INFO [test:192] Enter seconds to record & Press enter to start recording
-14/01/23, 20:36:02.682 INFO [test:194] [Recording 5]>
-14/01/23, 20:36:07.694 INFO [test:197] Recorded
-14/01/23, 20:36:11.818 INFO [test:100] [You]> Execute code.
-14/01/23, 20:36:11.818 INFO [test:227] chat went well
-14/01/23, 20:36:11.818 INFO [test:221] New chat
-14/01/23, 20:36:11.818 INFO [test:222] Choose mode (Chat - Image)
+print(translate("j'aime trouver des pépites"))
+15/01/23, 01:45:23.490 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.490 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.491 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.491 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.491 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.491 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.491 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.492 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.492 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.492 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.492 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.492 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.493 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.493 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.493 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.493 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.493 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.494 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.495 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:45:23.495 DEBUG [code:11] entering code: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [fence:11] entering fence: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [blockquote:14] entering blockquote: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [hr:15] entering hr: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [list:101] entering list: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [reference:11] entering reference: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.496 DEBUG [html_block:35] entering html_block: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.497 DEBUG [heading:14] entering heading: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.497 DEBUG [lheading:12] entering lheading: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.497 DEBUG [paragraph:12] entering paragraph: StateBlock(line=2,level=0,tokens=0), 2, 9, False
+15/01/23, 01:45:23.497 DEBUG [code:11] entering code: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.497 DEBUG [fence:11] entering fence: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.497 DEBUG [blockquote:14] entering blockquote: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [hr:15] entering hr: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [list:101] entering list: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [reference:11] entering reference: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [html_block:35] entering html_block: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [heading:14] entering heading: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [lheading:12] entering lheading: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:45:23.498 DEBUG [paragraph:12] entering paragraph: StateBlock(line=8,level=0,tokens=3), 8, 9, False
+15/01/23, 01:46:06.366 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.367 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.367 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.367 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.368 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.368 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.368 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.369 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.369 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.369 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.369 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.370 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.370 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.370 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.370 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.371 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.371 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.371 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.371 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.371 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.372 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.372 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.372 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.373 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.373 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.373 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.373 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.373 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:06.374 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.374 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.374 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.374 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.375 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.375 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.375 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.375 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.375 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.376 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.376 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.376 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.376 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.377 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:06.378 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.973 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.973 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.974 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.974 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.974 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.974 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.974 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.975 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.975 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.975 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.975 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.975 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.976 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.976 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.976 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.976 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.977 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.977 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.977 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.977 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.977 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.978 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.978 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.978 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.978 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.979 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.979 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.979 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 6, False
+15/01/23, 01:46:09.979 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.980 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.981 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.982 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.982 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.982 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.982 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.982 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.983 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.984 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.984 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.984 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.985 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.985 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.985 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.986 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.986 DEBUG [heading:14] entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.986 DEBUG [lheading:12] entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 01:46:09.986 DEBUG [paragraph:12] entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False

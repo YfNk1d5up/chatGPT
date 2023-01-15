@@ -1,0 +1,19 @@
+15/01/23, 00:01:16.315 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:01:18.630 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:01:18.730 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:01:49.361 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audioaut__on1.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 00:03:12.367 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:03:14.623 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:03:14.660 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:03:27.230 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audioi1_oo004.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+15/01/23, 00:15:22.206 DEBUG [api:422] Encoding detection: ascii is most likely the one.
+15/01/23, 00:15:24.567 DEBUG [code:11] entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.568 DEBUG [fence:11] entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.568 DEBUG [blockquote:14] entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.568 DEBUG [hr:15] entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.568 DEBUG [list:101] entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.569 DEBUG [reference:11] entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.569 DEBUG [html_block:35] entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+15/01/23, 00:15:24.573 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:15:24.667 DEBUG [selector_events:59] Using selector: EpollSelector
+15/01/23, 00:16:57.379 DEBUG [logging_utils:9] subprocess.call(['ffmpeg', '-y', '-i', '/tmp/audioxuznszrd.wav', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
