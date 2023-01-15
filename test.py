@@ -9,6 +9,7 @@ import openai
 import whisper
 import gradio as gr
 import shutil
+from PIL import Image
 from dotenv import load_dotenv
 import urllib.request
 from log.trace import trace as logger
@@ -22,7 +23,6 @@ import log.registre as registre
 globalConfig = None
 exe_dir = ""
 model_engine = "text-davinci-003"
-raz_next_inp = False
 
 
 # ---------------------------------------------------------------- #
@@ -94,54 +94,6 @@ def remove_file(filename):
         return False
 
 
-"""
-def promptManager(mode, prompt, last_resp):
-    logger.info("[You]> ")
-    question = recordSound()
-    logger.info("[You]> " + question)
-    if mode == "image":
-        if question == "end image":
-            return True
-        try:
-            url = chatGPTImage(question)
-            logger.info("[ChatGPT]> " + url)
-        except Exception as e:
-            logger.error(e)
-            return False
-        return True
-    elif mode == "chat":
-        if "end chat" in question.lower():
-            return True
-        elif "execute code" in question.lower():
-            try:
-                exec(last_resp)
-            except Exception as e:
-                logger.error(e)
-                return False
-            return True
-        elif prompt == "":
-            try:
-                resp = chatGPTresponse(question)
-                logger.info("[ChatGPT]> " + resp[2:])
-                prompt = '-' + question + '\n' + '-' + resp[2:] + '\n' + '-'
-                promptManager("chat", prompt, resp)
-            except Exception as e:
-                logger.error(e)
-                return False
-        else:
-            try:
-                question = prompt + question + '\n' + '-'
-                resp = chatGPTresponse(question)
-                logger.info("[ChatGPT]> " + resp)
-                prompt = question + resp + '\n' + '-'
-                promptManager("chat", prompt, resp)
-            except Exception as e:
-                logger.error(e)
-                return False
-    return True
-"""
-
-
 def chatGPTresponse(prompt):
     # Generate a response
     completion = openai.Completion.create(
@@ -163,19 +115,22 @@ def chatGPTImage(prompt):
     )
 
     url = response['data'][0]['url']
+    path = os.path.join(globalConfig.folder.output(), prompt.replace(' ', '_').replace('.','').replace(',','') + '.png')
     try:
-        urllib.request.urlretrieve(url, os.path.join(globalConfig.folder.output(), prompt.replace(' ', '_') + '.png'))
+        urllib.request.urlretrieve(url, path)
+        im = Image.open(path)
     except Exception as e:
         logger.error(e)
-    return url
+        im = None
+    return url, im
 
 
-def openai_create(prompt):
+def openai_create(prompt, temperature):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
-        temperature=0.5,
-        max_tokens=150,
+        temperature=int(temperature) / 100,
+        max_tokens=1500,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0.6,
@@ -205,8 +160,9 @@ def transcribe(audio):
     return result.text
 
 
-def chatgpt_clone(input, record, history):
+def chatgpt_clone(temperature, input, record, history):
     text_recognised = ""
+    im = None
     if input == "":
         try:
             text_recognised = transcribe(record)
@@ -219,30 +175,28 @@ def chatgpt_clone(input, record, history):
     s.append(text_recognised)
     if "image" in text_recognised.lower():
         try:
-            url = chatGPTImage(text_recognised)
+            url, im = chatGPTImage(text_recognised)
             logger.info("[ChatGPT]> " + url)
             output = "L'image a bien été générée"
-
         except Exception as e:
             logger.error(e)
             output = "Erreur pendant la génération de l'image"
+    elif "execute code" not in text_recognised.lower():
+        inp = ' '.join(s)
+        logger.info("[input]> " + inp)
+        output = openai_create(inp, temperature)
+        global last_answer
+        last_answer = output
     elif "execute code" in text_recognised.lower():
         try:
-            print(history)
-            #exec(history)
+            exec(last_answer)
             output = "Le code s'est bien executé"
         except Exception as e:
             logger.error(e)
             output = "Erreur lors de l'éxécution du code"
-    else:
-        if raz_next_inp:
-            inp = text_recognised
-        else:
-            inp = ' '.join(s)
-        logger.info("[input]> " + inp)
-        output = openai_create(inp)
+
     history.append((text_recognised, output))
-    return history, history
+    return history, history, im
 
 
 def start():
@@ -266,45 +220,25 @@ def start():
 
     global whisper_model
     whisper_model = whisper.load_model("small")
-
     block = gr.Blocks()
 
     with block:
         gr.Markdown("""<h1><center>Better than Alexa</center></h1>
         """)
         chatbot = gr.Chatbot()
+        temperature = gr.Slider(0, 100, 50, step=10, label="Temperature")
         message = gr.Textbox(placeholder="Ecrire à chatGPT")
         record = gr.inputs.Audio(source="microphone", type="filepath")
         state = gr.State()
         submit = gr.Button("SEND")
-        submit.click(chatgpt_clone, inputs=[message, record, state], outputs=[chatbot, state])
+        image = gr.Image(shape=(100, 100), type="pil")
+        submit.click(chatgpt_clone, inputs=[temperature, message, record, state], outputs=[chatbot, state, image])
 
-    block.launch(debug=False, server_name="192.168.1.10")
-
-    """
-    gr.Interface(
-        title='OpenAI Whisper ASR Gradio Web UI',
-        fn=transcribe,
-        inputs=[
-            gr.inputs.Audio(source="microphone", type="filepath")
-        ],
-        outputs=[
-            "textbox"
-        ],
-        live=True).launch()
-    """
-    """
-    while True:
-        logger.info("New chat")
-        logger.info("Choose mode (Chat - Image)")
-        mode = str(input())
-        if mode.lower() == "end":
-            break
-        if promptManager(mode.lower(), "", ""):
-            logger.info(mode.lower() + " went well")
-        else:
-            logger.info(mode.lower() + " went wrong")
-    """
+    # Changed line 1400 in gradio/blocks.py to  requests.get(f"{self.local_url}startup-events", verify=ssl_certfile)
+    block.launch(debug=False, server_name="0.0.0.0",
+                 ssl_certfile=os.path.join(exe_dir, globalConfig.folder.certificates(),
+                                           globalConfig.certificates.cert()),
+                 ssl_keyfile=os.path.join(exe_dir, globalConfig.folder.certificates(), globalConfig.certificates.key()))
 
 
 # ---------------------------------------------------------------- #
