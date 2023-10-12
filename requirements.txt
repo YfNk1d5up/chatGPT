@@ -1,3 +1,5 @@
 json-cfg
+gradio
 openai
+openai-whisper
 python-dotenv

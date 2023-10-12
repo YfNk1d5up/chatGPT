@@ -27,6 +27,17 @@ python Web OpenAI ChatGPT with STT (Speech to Text)
 
 ## Installation
 
+### OpenAI
+
+Navigate to OpenAI api-keys webpage to get your token :
+[api-keys](https://platform.openai.com/account/api-keys)
+
+Insert it into the **.env** file :
+
+```
+openai_API_KEY="<my_api_key>"
+```
+
 ### Linux
 
 ```bash
@@ -35,7 +46,7 @@ cd chatGPT
 python3 -m virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
-cp ChatGPT.template ChatGPT
+cp ChatGPT.template ChatGPT & rm ChatGPT.template
 ```
 
 Change directory on ChatGPT file with your working directory :
@@ -43,7 +54,7 @@ Change directory on ChatGPT file with your working directory :
 ```shell
 #!/bin/bash
 
-cd <Project_Directory/chatGPT>
+cd <Project_Directory_Parent>/chatGPT/
 source venv/bin/activate
 python3 main.py
 ```
@@ -54,13 +65,20 @@ Add ChatGPT to your path or to /usr/bin
 ln -s ChatGPT ChatGPT.s
 sudo cp ChatGPT.s /usr/bin/ChatGPT
 rm ChatGPT.s
+sudo chmod +x /usr/bin/ChatGPT
 ```
 
 You can now launch ChatGPT from your terminal
 ```shell
 ChatGPT
 ```
-
 ### Windows
+
+
+## Web App
+
+Open your fav Browser and navigate to :
+
+[chatGPT local url](https://localhost:7860)
 
 ## Ressources
