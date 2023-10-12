@@ -1,6 +1,6 @@
 # chatGPT
 
-python Web OpenAI ChatGPT with STT (Sppech to Text)
+python Web OpenAI ChatGPT with STT (Speech to Text)
 
 [github] https://github.com/YfNk1d5up/chatGPT
 
@@ -51,11 +51,12 @@ python3 main.py
 Add ChatGPT to your path or to /usr/bin
 
 ```shell
-ln -s ChatGPT /usr/bin/PwdManager.
+ln -s ChatGPT ChatGPT.s
 sudo cp ChatGPT.s /usr/bin/ChatGPT
+rm ChatGPT.s
 ```
 
-You can now launch PwdManager from your terminal
+You can now launch ChatGPT from your terminal
 ```shell
 ChatGPT
 ```
